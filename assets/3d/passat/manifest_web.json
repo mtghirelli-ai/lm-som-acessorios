@@ -1,0 +1,3377 @@
+{
+ "vehicle": "Volkswagen Passat 2022 - sedan, versao norte-americana (geracao NMS, ultimo ano-modelo), rodas 19 pol.",
+ "source_model": {
+  "title": "Volkswagen Passat (2022)",
+  "author": "geyges (Sketchfab)",
+  "license": "CC-BY-4.0",
+  "url": "https://sketchfab.com/3d-models/volkswagen-passat-2022-5a3398aea23a4beaa60e228738f525e8"
+ },
+ "quality": "web",
+ "units": "meters",
+ "axes": {
+  "blender": "frente +Y, topo +Z",
+  "gltf_three": "frente -Z, topo +Y  (three = (x, z, -y))"
+ },
+ "timeline": {
+  "fps": 30,
+  "frame_start": 1,
+  "frame_end": 1200,
+  "duration_s": 39.9667,
+  "progress_formula": "frame = 1 + progress * 1199 ; clip_time_s = frame / 30  (o exportador glTF coloca o quadro 1 em t = 1/30 s)"
+ },
+ "vehicle_motion": {
+  "distance_m": 30.0,
+  "vmax_m_s": 3.0,
+  "tire_radius_m": 0.3334,
+  "wheel_angle_rule": "angulo_X_da_roda = -distancia / raio_do_pneu (rolamento sem deslizamento)",
+  "accel_frames": [
+   210,
+   430
+  ],
+  "cruise_frames": [
+   430,
+   540
+  ],
+  "decel_frames": [
+   540,
+   700
+  ],
+  "pitch_deg_range": [
+   -0.584,
+   0.423
+  ],
+  "heave_mm_min": -4.77,
+  "samples": [
+   {
+    "frame": 1,
+    "progress": 0.0,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 31,
+    "progress": 0.02502,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 61,
+    "progress": 0.05004,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 91,
+    "progress": 0.07506,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 121,
+    "progress": 0.10008,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 151,
+    "progress": 0.1251,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 181,
+    "progress": 0.15013,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 211,
+    "progress": 0.17515,
+    "distance_m": 0.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 241,
+    "progress": 0.20017,
+    "distance_m": 0.0182,
+    "speed_m_s": 0.0672
+   },
+   {
+    "frame": 271,
+    "progress": 0.22519,
+    "distance_m": 0.2269,
+    "speed_m_s": 0.403
+   },
+   {
+    "frame": 301,
+    "progress": 0.25021,
+    "distance_m": 0.9211,
+    "speed_m_s": 1.0238
+   },
+   {
+    "frame": 331,
+    "progress": 0.27523,
+    "distance_m": 2.3201,
+    "speed_m_s": 1.7794
+   },
+   {
+    "frame": 361,
+    "progress": 0.30025,
+    "distance_m": 4.4528,
+    "speed_m_s": 2.4553
+   },
+   {
+    "frame": 391,
+    "progress": 0.32527,
+    "distance_m": 7.1434,
+    "speed_m_s": 2.8742
+   },
+   {
+    "frame": 421,
+    "progress": 0.35029,
+    "distance_m": 10.1001,
+    "speed_m_s": 2.9981
+   },
+   {
+    "frame": 451,
+    "progress": 0.37531,
+    "distance_m": 13.1,
+    "speed_m_s": 3.0
+   },
+   {
+    "frame": 481,
+    "progress": 0.40033,
+    "distance_m": 16.1,
+    "speed_m_s": 3.0
+   },
+   {
+    "frame": 511,
+    "progress": 0.42535,
+    "distance_m": 19.1,
+    "speed_m_s": 3.0
+   },
+   {
+    "frame": 541,
+    "progress": 0.45038,
+    "distance_m": 22.1,
+    "speed_m_s": 3.0
+   },
+   {
+    "frame": 571,
+    "progress": 0.4754,
+    "distance_m": 25.0559,
+    "speed_m_s": 2.8403
+   },
+   {
+    "frame": 601,
+    "progress": 0.50042,
+    "distance_m": 27.5924,
+    "speed_m_s": 2.1433
+   },
+   {
+    "frame": 631,
+    "progress": 0.52544,
+    "distance_m": 29.2295,
+    "speed_m_s": 1.1181
+   },
+   {
+    "frame": 661,
+    "progress": 0.55046,
+    "distance_m": 29.8967,
+    "speed_m_s": 0.2911
+   },
+   {
+    "frame": 691,
+    "progress": 0.57548,
+    "distance_m": 29.9996,
+    "speed_m_s": 0.0049
+   },
+   {
+    "frame": 721,
+    "progress": 0.6005,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 751,
+    "progress": 0.62552,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 781,
+    "progress": 0.65054,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 811,
+    "progress": 0.67556,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 841,
+    "progress": 0.70058,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 871,
+    "progress": 0.7256,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 901,
+    "progress": 0.75063,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 931,
+    "progress": 0.77565,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 961,
+    "progress": 0.80067,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 991,
+    "progress": 0.82569,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 1021,
+    "progress": 0.85071,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 1051,
+    "progress": 0.87573,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 1081,
+    "progress": 0.90075,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 1111,
+    "progress": 0.92577,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 1141,
+    "progress": 0.95079,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   },
+   {
+    "frame": 1171,
+    "progress": 0.97581,
+    "distance_m": 30.0,
+    "speed_m_s": 0.0
+   }
+  ]
+ },
+ "trunk": {
+  "open_angle_deg": 74.8,
+  "hinge_source": "eixo e angulo da animacao original 'Tailgate and shelf'",
+  "frames": {
+   "unlatch": [
+    790,
+    797
+   ],
+   "open": [
+    803,
+    880
+   ]
+  }
+ },
+ "animations": {
+  "VehicleMovement": "VEHICLE (translacao Y) + BODY_SUSPENSION (arfagem X e altura Z, mola-amortecedor pre-calculado)",
+  "WheelRotation": "WHEEL_FL/FR/RL/RR_SPIN, rotacao em X proporcional a distancia",
+  "TrunkOpening": "TRUNK_LID_EXT e TRUNK_LID_INT, rotacao no eixo da dobradica original",
+  "CameraMovement": "CINE_CAMERA (posicao + rotacao por quadro); lente e f-stop em camera_curve",
+  "LightingAnimation": "empties LIGHTCTL_<canal>: position.x = intensidade normalizada 0..1"
+ },
+ "lighting_channels": {
+  "KEY_REVEAL": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.16
+    },
+    {
+     "frame": 20,
+     "value": 0.16
+    },
+    {
+     "frame": 140,
+     "value": 1.0
+    }
+   ],
+   "drives": [
+    "TOP_SOFTBOX_START"
+   ],
+   "peak": {
+    "TOP_SOFTBOX_START": 1300
+   }
+  },
+  "FRONT_REVEAL": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.08
+    },
+    {
+     "frame": 25,
+     "value": 0.08
+    },
+    {
+     "frame": 120,
+     "value": 1.0
+    },
+    {
+     "frame": 600,
+     "value": 1.0
+    },
+    {
+     "frame": 720,
+     "value": 0.25
+    }
+   ],
+   "drives": [
+    "KEY_FRONT_STRIP",
+    "GRILLE_KICK"
+   ],
+   "peak": {
+    "KEY_FRONT_STRIP": 900,
+    "GRILLE_KICK": 160
+   }
+  },
+  "SIDE_REVEAL": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 70,
+     "value": 0.0
+    },
+    {
+     "frame": 200,
+     "value": 1.0
+    }
+   ],
+   "drives": [
+    "SIDE_STRIP_R_START",
+    "SIDE_STRIP_L_START"
+   ],
+   "peak": {
+    "SIDE_STRIP_R_START": 700,
+    "SIDE_STRIP_L_START": 420
+   }
+  },
+  "CORRIDOR": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 160,
+     "value": 0.0
+    },
+    {
+     "frame": 280,
+     "value": 1.0
+    },
+    {
+     "frame": 760,
+     "value": 1.0
+    },
+    {
+     "frame": 900,
+     "value": 0.35
+    }
+   ],
+   "drives": [
+    "CORRIDOR_TOP_L",
+    "CORRIDOR_TOP_R",
+    "CORRIDOR_SIDE_R_0",
+    "CORRIDOR_SIDE_L_0",
+    "CORRIDOR_SIDE_R_1",
+    "CORRIDOR_SIDE_L_1",
+    "CORRIDOR_SIDE_R_2",
+    "CORRIDOR_SIDE_L_2",
+    "CORRIDOR_SIDE_R_3",
+    "CORRIDOR_SIDE_L_3",
+    "CORRIDOR_SIDE_R_4",
+    "CORRIDOR_SIDE_L_4"
+   ],
+   "peak": {
+    "CORRIDOR_TOP_L": 1500,
+    "CORRIDOR_TOP_R": 1500,
+    "CORRIDOR_SIDE_R_0": 300,
+    "CORRIDOR_SIDE_L_0": 220,
+    "CORRIDOR_SIDE_R_1": 300,
+    "CORRIDOR_SIDE_L_1": 220,
+    "CORRIDOR_SIDE_R_2": 300,
+    "CORRIDOR_SIDE_L_2": 220,
+    "CORRIDOR_SIDE_R_3": 300,
+    "CORRIDOR_SIDE_L_3": 220,
+    "CORRIDOR_SIDE_R_4": 300,
+    "CORRIDOR_SIDE_L_4": 220
+   }
+  },
+  "REAR_ACCENT": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 520,
+     "value": 0.0
+    },
+    {
+     "frame": 690,
+     "value": 1.0
+    }
+   ],
+   "drives": [
+    "REAR_KEY_STRIP",
+    "REAR_RIM_R",
+    "TOP_SOFTBOX_END"
+   ],
+   "peak": {
+    "REAR_KEY_STRIP": 1100,
+    "REAR_RIM_R": 800,
+    "TOP_SOFTBOX_END": 1100
+   }
+  },
+  "TRUNK_FILL": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 790,
+     "value": 0.0
+    },
+    {
+     "frame": 900,
+     "value": 1.0
+    }
+   ],
+   "drives": [
+    "TRUNK_FILL"
+   ],
+   "peak": {
+    "TRUNK_FILL": 140
+   }
+  },
+  "TRUNK_COURTESY": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 797,
+     "value": 0.0
+    },
+    {
+     "frame": 830,
+     "value": 1.0
+    }
+   ],
+   "drives": [
+    "TRUNK_COURTESY"
+   ],
+   "peak": {
+    "TRUNK_COURTESY": 7
+   }
+  },
+  "HEADLAMPS": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 45,
+     "value": 0.0
+    },
+    {
+     "frame": 75,
+     "value": 1.0
+    }
+   ],
+   "drives": [
+    "HEADLAMP_L",
+    "HEADLAMP_R"
+   ],
+   "peak": {
+    "HEADLAMP_L": 420,
+    "HEADLAMP_R": 420
+   }
+  },
+  "DRL": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 38,
+     "value": 0.0
+    },
+    {
+     "frame": 52,
+     "value": 1.0
+    }
+   ],
+   "drives": [
+    "MAT:Glow_DRL"
+   ],
+   "peak": {
+    "MAT:Glow_DRL": 12.0
+   }
+  },
+  "TAIL_BRAKE": {
+   "keys": [
+    {
+     "frame": 1,
+     "value": 0.0
+    },
+    {
+     "frame": 40,
+     "value": 0.0
+    },
+    {
+     "frame": 60,
+     "value": 0.35
+    },
+    {
+     "frame": 545,
+     "value": 0.35
+    },
+    {
+     "frame": 565,
+     "value": 1.0
+    },
+    {
+     "frame": 760,
+     "value": 1.0
+    },
+    {
+     "frame": 790,
+     "value": 0.35
+    }
+   ],
+   "drives": [
+    "MAT:Glow_Red"
+   ],
+   "peak": {
+    "MAT:Glow_Red": 16.0
+   }
+  }
+ },
+ "sections": [
+  {
+   "id": "A_revelacao",
+   "frames": [
+    1,
+    210
+   ],
+   "progress": [
+    0.0,
+    0.17431
+   ],
+   "description": "Carro parcialmente iluminado; close-up frontal baixo; luzes revelam grade, farois e carroceria; camera desliza ate o perfil."
+  },
+  {
+   "id": "B_movimento",
+   "frames": [
+    210,
+    540
+   ],
+   "progress": [
+    0.17431,
+    0.44954
+   ],
+   "description": "Carro acelera (210-430) e mantem velocidade (430-540); travelling lateral que passa a traseira tres quartos."
+  },
+  {
+   "id": "C_desaceleracao",
+   "frames": [
+    540,
+    720
+   ],
+   "progress": [
+    0.44954,
+    0.59967
+   ],
+   "description": "Desaceleracao suave ate parar no quadro 700; luz de freio acesa; a suspensao assenta ate 720; luz realca a traseira."
+  },
+  {
+   "id": "D_porta_malas",
+   "frames": [
+    720,
+    900
+   ],
+   "progress": [
+    0.59967,
+    0.74979
+   ],
+   "description": "Camera se aproxima da traseira (720-790); tampa destrava (790-797) e abre (803-880)."
+  },
+  {
+   "id": "E_sistema_de_som",
+   "frames": [
+    900,
+    1080
+   ],
+   "progress": [
+    0.74979,
+    0.89992
+   ],
+   "description": "Close-up do amplificador (950) deslizando ate o subwoofer (1030); quase parado ate 1080."
+  },
+  {
+   "id": "F_encerramento",
+   "frames": [
+    1080,
+    1200
+   ],
+   "progress": [
+    0.89992,
+    1.0
+   ],
+   "description": "Camera recua para o plano final; carro a direita do quadro, espaco livre a esquerda para titulos HTML."
+  }
+ ],
+ "camera_keys": [
+  {
+   "frame": 1,
+   "progress": 0.0,
+   "camera_offset_from_car": [
+    0.62,
+    3.55,
+    0.4
+   ],
+   "target_offset_from_car": [
+    0.05,
+    2.25,
+    0.5
+   ],
+   "focal_length_mm": 55,
+   "fstop": 4.0,
+   "hold": true,
+   "framing": "1. close-up frontal baixo"
+  },
+  {
+   "frame": 90,
+   "progress": 0.07423,
+   "camera_offset_from_car": [
+    1.25,
+    3.6,
+    0.45
+   ],
+   "target_offset_from_car": [
+    0.25,
+    2.1,
+    0.52
+   ],
+   "focal_length_mm": 55,
+   "fstop": 4.0,
+   "hold": false,
+   "framing": "close-up frontal (deslizando)"
+  },
+  {
+   "frame": 150,
+   "progress": 0.12427,
+   "camera_offset_from_car": [
+    3.3,
+    4.2,
+    0.8
+   ],
+   "target_offset_from_car": [
+    0.15,
+    0.9,
+    0.62
+   ],
+   "focal_length_mm": 45,
+   "fstop": 5.6,
+   "hold": false,
+   "framing": "2. frontal tres quartos"
+  },
+  {
+   "frame": 210,
+   "progress": 0.17431,
+   "camera_offset_from_car": [
+    6.0,
+    0.6,
+    0.9
+   ],
+   "target_offset_from_car": [
+    0.0,
+    0.1,
+    0.62
+   ],
+   "focal_length_mm": 40,
+   "fstop": 8.0,
+   "hold": true,
+   "framing": "3. perfil lateral (inicio do travelling)"
+  },
+  {
+   "frame": 330,
+   "progress": 0.2744,
+   "camera_offset_from_car": [
+    5.6,
+    1.6,
+    0.75
+   ],
+   "target_offset_from_car": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "focal_length_mm": 40,
+   "fstop": 8.0,
+   "hold": false,
+   "framing": "travelling lateral"
+  },
+  {
+   "frame": 430,
+   "progress": 0.3578,
+   "camera_offset_from_car": [
+    5.2,
+    -1.2,
+    0.85
+   ],
+   "target_offset_from_car": [
+    0.0,
+    -0.3,
+    0.62
+   ],
+   "focal_length_mm": 40,
+   "fstop": 8.0,
+   "hold": false,
+   "framing": "travelling lateral (cruzeiro)"
+  },
+  {
+   "frame": 540,
+   "progress": 0.44954,
+   "camera_offset_from_car": [
+    4.0,
+    -5.6,
+    1.1
+   ],
+   "target_offset_from_car": [
+    0.0,
+    -0.8,
+    0.62
+   ],
+   "focal_length_mm": 42,
+   "fstop": 8.0,
+   "hold": false,
+   "framing": "4. traseira tres quartos"
+  },
+  {
+   "frame": 700,
+   "progress": 0.58299,
+   "camera_offset_from_car": [
+    3.6,
+    -6.2,
+    1.25
+   ],
+   "target_offset_from_car": [
+    0.0,
+    -0.9,
+    0.6
+   ],
+   "focal_length_mm": 42,
+   "fstop": 8.0,
+   "hold": true,
+   "framing": "parada composta"
+  },
+  {
+   "frame": 790,
+   "progress": 0.65805,
+   "camera_offset_from_car": [
+    0.55,
+    -4.7,
+    1.75
+   ],
+   "target_offset_from_car": [
+    0.0,
+    -1.95,
+    0.85
+   ],
+   "focal_length_mm": 40,
+   "fstop": 5.6,
+   "hold": true,
+   "framing": "5. aproximacao do porta-malas"
+  },
+  {
+   "frame": 880,
+   "progress": 0.73311,
+   "camera_offset_from_car": [
+    0.35,
+    -4.1,
+    1.95
+   ],
+   "target_offset_from_car": [
+    0.0,
+    -1.75,
+    0.7
+   ],
+   "focal_length_mm": 40,
+   "fstop": 5.6,
+   "hold": false,
+   "framing": "porta-malas aberto"
+  },
+  {
+   "frame": 950,
+   "progress": 0.79149,
+   "camera_offset_from_car": [
+    0.55,
+    -3.05,
+    1.28
+   ],
+   "target_offset_from_car": [
+    0.05,
+    -1.95,
+    0.62
+   ],
+   "focal_length_mm": 45,
+   "fstop": 2.8,
+   "hold": false,
+   "framing": "6. close-up do amplificador"
+  },
+  {
+   "frame": 1030,
+   "progress": 0.85822,
+   "camera_offset_from_car": [
+    -0.25,
+    -3.0,
+    1.3
+   ],
+   "target_offset_from_car": [
+    0.0,
+    -1.62,
+    0.72
+   ],
+   "focal_length_mm": 45,
+   "fstop": 2.8,
+   "hold": false,
+   "framing": "6. close-up do subwoofer"
+  },
+  {
+   "frame": 1080,
+   "progress": 0.89992,
+   "camera_offset_from_car": [
+    -0.35,
+    -3.1,
+    1.32
+   ],
+   "target_offset_from_car": [
+    0.0,
+    -1.6,
+    0.72
+   ],
+   "focal_length_mm": 45,
+   "fstop": 2.8,
+   "hold": true,
+   "framing": "close-up quase suspenso"
+  },
+  {
+   "frame": 1200,
+   "progress": 1.0,
+   "camera_offset_from_car": [
+    -3.7,
+    -6.3,
+    1.55
+   ],
+   "target_offset_from_car": [
+    -1.15,
+    -1.0,
+    0.72
+   ],
+   "focal_length_mm": 35,
+   "fstop": 8.0,
+   "hold": true,
+   "framing": "7. plano final de apresentacao"
+  }
+ ],
+ "camera_curve": [
+  {
+   "frame": 1,
+   "progress": 0.0,
+   "lens_mm": 55.0,
+   "fstop": 4.0,
+   "focus_distance_m": 1.423
+  },
+  {
+   "frame": 6,
+   "progress": 0.00417,
+   "lens_mm": 55.018,
+   "fstop": 3.997,
+   "focus_distance_m": 1.4212
+  },
+  {
+   "frame": 11,
+   "progress": 0.00834,
+   "lens_mm": 55.067,
+   "fstop": 3.989,
+   "focus_distance_m": 1.4163
+  },
+  {
+   "frame": 16,
+   "progress": 0.01251,
+   "lens_mm": 55.141,
+   "fstop": 3.977,
+   "focus_distance_m": 1.4096
+  },
+  {
+   "frame": 21,
+   "progress": 0.01668,
+   "lens_mm": 55.234,
+   "fstop": 3.963,
+   "focus_distance_m": 1.402
+  },
+  {
+   "frame": 26,
+   "progress": 0.02085,
+   "lens_mm": 55.339,
+   "fstop": 3.946,
+   "focus_distance_m": 1.3946
+  },
+  {
+   "frame": 31,
+   "progress": 0.02502,
+   "lens_mm": 55.45,
+   "fstop": 3.928,
+   "focus_distance_m": 1.3885
+  },
+  {
+   "frame": 36,
+   "progress": 0.02919,
+   "lens_mm": 55.56,
+   "fstop": 3.91,
+   "focus_distance_m": 1.3847
+  },
+  {
+   "frame": 41,
+   "progress": 0.03336,
+   "lens_mm": 55.664,
+   "fstop": 3.894,
+   "focus_distance_m": 1.3844
+  },
+  {
+   "frame": 46,
+   "progress": 0.03753,
+   "lens_mm": 55.755,
+   "fstop": 3.879,
+   "focus_distance_m": 1.3886
+  },
+  {
+   "frame": 51,
+   "progress": 0.0417,
+   "lens_mm": 55.826,
+   "fstop": 3.868,
+   "focus_distance_m": 1.3984
+  },
+  {
+   "frame": 56,
+   "progress": 0.04587,
+   "lens_mm": 55.871,
+   "fstop": 3.861,
+   "focus_distance_m": 1.4151
+  },
+  {
+   "frame": 61,
+   "progress": 0.05004,
+   "lens_mm": 55.885,
+   "fstop": 3.858,
+   "focus_distance_m": 1.4399
+  },
+  {
+   "frame": 66,
+   "progress": 0.05421,
+   "lens_mm": 55.859,
+   "fstop": 3.863,
+   "focus_distance_m": 1.4738
+  },
+  {
+   "frame": 71,
+   "progress": 0.05838,
+   "lens_mm": 55.789,
+   "fstop": 3.874,
+   "focus_distance_m": 1.5182
+  },
+  {
+   "frame": 76,
+   "progress": 0.06255,
+   "lens_mm": 55.667,
+   "fstop": 3.893,
+   "focus_distance_m": 1.5743
+  },
+  {
+   "frame": 81,
+   "progress": 0.06672,
+   "lens_mm": 55.488,
+   "fstop": 3.922,
+   "focus_distance_m": 1.6433
+  },
+  {
+   "frame": 86,
+   "progress": 0.07089,
+   "lens_mm": 55.245,
+   "fstop": 3.961,
+   "focus_distance_m": 1.7265
+  },
+  {
+   "frame": 91,
+   "progress": 0.07506,
+   "lens_mm": 54.929,
+   "fstop": 4.011,
+   "focus_distance_m": 1.8261
+  },
+  {
+   "frame": 96,
+   "progress": 0.07923,
+   "lens_mm": 54.461,
+   "fstop": 4.079,
+   "focus_distance_m": 1.9714
+  },
+  {
+   "frame": 101,
+   "progress": 0.0834,
+   "lens_mm": 53.828,
+   "fstop": 4.165,
+   "focus_distance_m": 2.1677
+  },
+  {
+   "frame": 106,
+   "progress": 0.08757,
+   "lens_mm": 53.06,
+   "fstop": 4.269,
+   "focus_distance_m": 2.4041
+  },
+  {
+   "frame": 111,
+   "progress": 0.09174,
+   "lens_mm": 52.184,
+   "fstop": 4.387,
+   "focus_distance_m": 2.6695
+  },
+  {
+   "frame": 116,
+   "progress": 0.09591,
+   "lens_mm": 51.232,
+   "fstop": 4.518,
+   "focus_distance_m": 2.9534
+  },
+  {
+   "frame": 121,
+   "progress": 0.10008,
+   "lens_mm": 50.232,
+   "fstop": 4.66,
+   "focus_distance_m": 3.2448
+  },
+  {
+   "frame": 126,
+   "progress": 0.10425,
+   "lens_mm": 49.213,
+   "fstop": 4.811,
+   "focus_distance_m": 3.5332
+  },
+  {
+   "frame": 131,
+   "progress": 0.10842,
+   "lens_mm": 48.206,
+   "fstop": 4.969,
+   "focus_distance_m": 3.8084
+  },
+  {
+   "frame": 136,
+   "progress": 0.11259,
+   "lens_mm": 47.24,
+   "fstop": 5.132,
+   "focus_distance_m": 4.0603
+  },
+  {
+   "frame": 141,
+   "progress": 0.11676,
+   "lens_mm": 46.343,
+   "fstop": 5.298,
+   "focus_distance_m": 4.2796
+  },
+  {
+   "frame": 146,
+   "progress": 0.12093,
+   "lens_mm": 45.546,
+   "fstop": 5.466,
+   "focus_distance_m": 4.4577
+  },
+  {
+   "frame": 151,
+   "progress": 0.1251,
+   "lens_mm": 44.875,
+   "fstop": 5.634,
+   "focus_distance_m": 4.5878
+  },
+  {
+   "frame": 156,
+   "progress": 0.12927,
+   "lens_mm": 44.253,
+   "fstop": 5.829,
+   "focus_distance_m": 4.6839
+  },
+  {
+   "frame": 161,
+   "progress": 0.13344,
+   "lens_mm": 43.64,
+   "fstop": 6.057,
+   "focus_distance_m": 4.7686
+  },
+  {
+   "frame": 166,
+   "progress": 0.13761,
+   "lens_mm": 43.047,
+   "fstop": 6.308,
+   "focus_distance_m": 4.8589
+  },
+  {
+   "frame": 171,
+   "progress": 0.14178,
+   "lens_mm": 42.482,
+   "fstop": 6.572,
+   "focus_distance_m": 4.9679
+  },
+  {
+   "frame": 176,
+   "progress": 0.14595,
+   "lens_mm": 41.953,
+   "fstop": 6.84,
+   "focus_distance_m": 5.1022
+  },
+  {
+   "frame": 181,
+   "progress": 0.15013,
+   "lens_mm": 41.47,
+   "fstop": 7.101,
+   "focus_distance_m": 5.261
+  },
+  {
+   "frame": 186,
+   "progress": 0.1543,
+   "lens_mm": 41.04,
+   "fstop": 7.347,
+   "focus_distance_m": 5.4368
+  },
+  {
+   "frame": 191,
+   "progress": 0.15847,
+   "lens_mm": 40.673,
+   "fstop": 7.567,
+   "focus_distance_m": 5.6164
+  },
+  {
+   "frame": 196,
+   "progress": 0.16264,
+   "lens_mm": 40.377,
+   "fstop": 7.752,
+   "focus_distance_m": 5.7829
+  },
+  {
+   "frame": 201,
+   "progress": 0.16681,
+   "lens_mm": 40.16,
+   "fstop": 7.892,
+   "focus_distance_m": 5.9182
+  },
+  {
+   "frame": 206,
+   "progress": 0.17098,
+   "lens_mm": 40.033,
+   "fstop": 7.978,
+   "focus_distance_m": 6.0043
+  },
+  {
+   "frame": 211,
+   "progress": 0.17515,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 6.0273
+  },
+  {
+   "frame": 216,
+   "progress": 0.17932,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 6.026
+  },
+  {
+   "frame": 221,
+   "progress": 0.18349,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 6.0229
+  },
+  {
+   "frame": 226,
+   "progress": 0.18766,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 6.0182
+  },
+  {
+   "frame": 231,
+   "progress": 0.19183,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 6.012
+  },
+  {
+   "frame": 236,
+   "progress": 0.196,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 6.0042
+  },
+  {
+   "frame": 241,
+   "progress": 0.20017,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9951
+  },
+  {
+   "frame": 246,
+   "progress": 0.20434,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9845
+  },
+  {
+   "frame": 251,
+   "progress": 0.20851,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9726
+  },
+  {
+   "frame": 256,
+   "progress": 0.21268,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9593
+  },
+  {
+   "frame": 261,
+   "progress": 0.21685,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9445
+  },
+  {
+   "frame": 266,
+   "progress": 0.22102,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9282
+  },
+  {
+   "frame": 271,
+   "progress": 0.22519,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9103
+  },
+  {
+   "frame": 276,
+   "progress": 0.22936,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.8909
+  },
+  {
+   "frame": 281,
+   "progress": 0.23353,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.8699
+  },
+  {
+   "frame": 286,
+   "progress": 0.2377,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.8473
+  },
+  {
+   "frame": 291,
+   "progress": 0.24187,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.8232
+  },
+  {
+   "frame": 296,
+   "progress": 0.24604,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.7976
+  },
+  {
+   "frame": 301,
+   "progress": 0.25021,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.7709
+  },
+  {
+   "frame": 306,
+   "progress": 0.25438,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.7433
+  },
+  {
+   "frame": 311,
+   "progress": 0.25855,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.715
+  },
+  {
+   "frame": 316,
+   "progress": 0.26272,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.6866
+  },
+  {
+   "frame": 321,
+   "progress": 0.26689,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.6586
+  },
+  {
+   "frame": 326,
+   "progress": 0.27106,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.6316
+  },
+  {
+   "frame": 331,
+   "progress": 0.27523,
+   "lens_mm": 40.0,
+   "fstop": 8.0,
+   "focus_distance_m": 5.6065
+  },
+  {
+   "frame": 336,
+   "progress": 0.2794,
+   "lens_mm": 39.997,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5842
+  },
+  {
+   "frame": 341,
+   "progress": 0.28357,
+   "lens_mm": 39.99,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5653
+  },
+  {
+   "frame": 346,
+   "progress": 0.28774,
+   "lens_mm": 39.98,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5505
+  },
+  {
+   "frame": 351,
+   "progress": 0.29191,
+   "lens_mm": 39.967,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5399
+  },
+  {
+   "frame": 356,
+   "progress": 0.29608,
+   "lens_mm": 39.952,
+   "fstop": 8.0,
+   "focus_distance_m": 5.534
+  },
+  {
+   "frame": 361,
+   "progress": 0.30025,
+   "lens_mm": 39.937,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5328
+  },
+  {
+   "frame": 366,
+   "progress": 0.30442,
+   "lens_mm": 39.921,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5366
+  },
+  {
+   "frame": 371,
+   "progress": 0.30859,
+   "lens_mm": 39.906,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5451
+  },
+  {
+   "frame": 376,
+   "progress": 0.31276,
+   "lens_mm": 39.891,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5584
+  },
+  {
+   "frame": 381,
+   "progress": 0.31693,
+   "lens_mm": 39.879,
+   "fstop": 8.0,
+   "focus_distance_m": 5.5762
+  },
+  {
+   "frame": 386,
+   "progress": 0.3211,
+   "lens_mm": 39.869,
+   "fstop": 8.0,
+   "focus_distance_m": 5.598
+  },
+  {
+   "frame": 391,
+   "progress": 0.32527,
+   "lens_mm": 39.862,
+   "fstop": 8.0,
+   "focus_distance_m": 5.6235
+  },
+  {
+   "frame": 396,
+   "progress": 0.32944,
+   "lens_mm": 39.859,
+   "fstop": 8.0,
+   "focus_distance_m": 5.6523
+  },
+  {
+   "frame": 401,
+   "progress": 0.33361,
+   "lens_mm": 39.861,
+   "fstop": 8.0,
+   "focus_distance_m": 5.6836
+  },
+  {
+   "frame": 406,
+   "progress": 0.33778,
+   "lens_mm": 39.868,
+   "fstop": 8.0,
+   "focus_distance_m": 5.7171
+  },
+  {
+   "frame": 411,
+   "progress": 0.34195,
+   "lens_mm": 39.881,
+   "fstop": 8.0,
+   "focus_distance_m": 5.7522
+  },
+  {
+   "frame": 416,
+   "progress": 0.34612,
+   "lens_mm": 39.901,
+   "fstop": 8.0,
+   "focus_distance_m": 5.7883
+  },
+  {
+   "frame": 421,
+   "progress": 0.35029,
+   "lens_mm": 39.929,
+   "fstop": 8.0,
+   "focus_distance_m": 5.8249
+  },
+  {
+   "frame": 426,
+   "progress": 0.35446,
+   "lens_mm": 39.965,
+   "fstop": 8.0,
+   "focus_distance_m": 5.8618
+  },
+  {
+   "frame": 431,
+   "progress": 0.35863,
+   "lens_mm": 40.01,
+   "fstop": 8.0,
+   "focus_distance_m": 5.8987
+  },
+  {
+   "frame": 436,
+   "progress": 0.3628,
+   "lens_mm": 40.066,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9392
+  },
+  {
+   "frame": 441,
+   "progress": 0.36697,
+   "lens_mm": 40.134,
+   "fstop": 8.0,
+   "focus_distance_m": 5.9858
+  },
+  {
+   "frame": 446,
+   "progress": 0.37114,
+   "lens_mm": 40.211,
+   "fstop": 8.0,
+   "focus_distance_m": 6.0394
+  },
+  {
+   "frame": 451,
+   "progress": 0.37531,
+   "lens_mm": 40.298,
+   "fstop": 8.0,
+   "focus_distance_m": 6.1004
+  },
+  {
+   "frame": 456,
+   "progress": 0.37948,
+   "lens_mm": 40.392,
+   "fstop": 8.0,
+   "focus_distance_m": 6.1693
+  },
+  {
+   "frame": 461,
+   "progress": 0.38365,
+   "lens_mm": 40.493,
+   "fstop": 8.0,
+   "focus_distance_m": 6.2459
+  },
+  {
+   "frame": 466,
+   "progress": 0.38782,
+   "lens_mm": 40.599,
+   "fstop": 8.0,
+   "focus_distance_m": 6.3302
+  },
+  {
+   "frame": 471,
+   "progress": 0.39199,
+   "lens_mm": 40.709,
+   "fstop": 8.0,
+   "focus_distance_m": 6.4217
+  },
+  {
+   "frame": 476,
+   "progress": 0.39616,
+   "lens_mm": 40.822,
+   "fstop": 8.0,
+   "focus_distance_m": 6.5197
+  },
+  {
+   "frame": 481,
+   "progress": 0.40033,
+   "lens_mm": 40.937,
+   "fstop": 8.0,
+   "focus_distance_m": 6.6234
+  },
+  {
+   "frame": 486,
+   "progress": 0.4045,
+   "lens_mm": 41.052,
+   "fstop": 8.0,
+   "focus_distance_m": 6.7317
+  },
+  {
+   "frame": 491,
+   "progress": 0.40867,
+   "lens_mm": 41.167,
+   "fstop": 8.0,
+   "focus_distance_m": 6.8434
+  },
+  {
+   "frame": 496,
+   "progress": 0.41284,
+   "lens_mm": 41.279,
+   "fstop": 8.0,
+   "focus_distance_m": 6.9571
+  },
+  {
+   "frame": 501,
+   "progress": 0.41701,
+   "lens_mm": 41.389,
+   "fstop": 8.0,
+   "focus_distance_m": 7.0713
+  },
+  {
+   "frame": 506,
+   "progress": 0.42118,
+   "lens_mm": 41.494,
+   "fstop": 8.0,
+   "focus_distance_m": 7.1844
+  },
+  {
+   "frame": 511,
+   "progress": 0.42535,
+   "lens_mm": 41.593,
+   "fstop": 8.0,
+   "focus_distance_m": 7.2949
+  },
+  {
+   "frame": 516,
+   "progress": 0.42952,
+   "lens_mm": 41.686,
+   "fstop": 8.0,
+   "focus_distance_m": 7.401
+  },
+  {
+   "frame": 521,
+   "progress": 0.43369,
+   "lens_mm": 41.771,
+   "fstop": 8.0,
+   "focus_distance_m": 7.5011
+  },
+  {
+   "frame": 526,
+   "progress": 0.43786,
+   "lens_mm": 41.847,
+   "fstop": 8.0,
+   "focus_distance_m": 7.5935
+  },
+  {
+   "frame": 531,
+   "progress": 0.44204,
+   "lens_mm": 41.912,
+   "fstop": 8.0,
+   "focus_distance_m": 7.6764
+  },
+  {
+   "frame": 536,
+   "progress": 0.44621,
+   "lens_mm": 41.966,
+   "fstop": 8.0,
+   "focus_distance_m": 7.7482
+  },
+  {
+   "frame": 541,
+   "progress": 0.45038,
+   "lens_mm": 42.007,
+   "fstop": 8.0,
+   "focus_distance_m": 7.8074
+  },
+  {
+   "frame": 546,
+   "progress": 0.45455,
+   "lens_mm": 42.041,
+   "fstop": 8.0,
+   "focus_distance_m": 7.859
+  },
+  {
+   "frame": 551,
+   "progress": 0.45872,
+   "lens_mm": 42.071,
+   "fstop": 8.0,
+   "focus_distance_m": 7.9052
+  },
+  {
+   "frame": 556,
+   "progress": 0.46289,
+   "lens_mm": 42.096,
+   "fstop": 8.0,
+   "focus_distance_m": 7.9452
+  },
+  {
+   "frame": 561,
+   "progress": 0.46706,
+   "lens_mm": 42.117,
+   "fstop": 8.0,
+   "focus_distance_m": 7.9778
+  },
+  {
+   "frame": 566,
+   "progress": 0.47123,
+   "lens_mm": 42.135,
+   "fstop": 8.0,
+   "focus_distance_m": 8.0017
+  },
+  {
+   "frame": 571,
+   "progress": 0.4754,
+   "lens_mm": 42.149,
+   "fstop": 8.0,
+   "focus_distance_m": 8.016
+  },
+  {
+   "frame": 576,
+   "progress": 0.47957,
+   "lens_mm": 42.16,
+   "fstop": 8.0,
+   "focus_distance_m": 8.0196
+  },
+  {
+   "frame": 581,
+   "progress": 0.48374,
+   "lens_mm": 42.168,
+   "fstop": 8.0,
+   "focus_distance_m": 8.0118
+  },
+  {
+   "frame": 586,
+   "progress": 0.48791,
+   "lens_mm": 42.173,
+   "fstop": 8.0,
+   "focus_distance_m": 7.9923
+  },
+  {
+   "frame": 591,
+   "progress": 0.49208,
+   "lens_mm": 42.175,
+   "fstop": 8.0,
+   "focus_distance_m": 7.9611
+  },
+  {
+   "frame": 596,
+   "progress": 0.49625,
+   "lens_mm": 42.175,
+   "fstop": 8.0,
+   "focus_distance_m": 7.9184
+  },
+  {
+   "frame": 601,
+   "progress": 0.50042,
+   "lens_mm": 42.173,
+   "fstop": 8.0,
+   "focus_distance_m": 7.8648
+  },
+  {
+   "frame": 606,
+   "progress": 0.50459,
+   "lens_mm": 42.169,
+   "fstop": 8.0,
+   "focus_distance_m": 7.801
+  },
+  {
+   "frame": 611,
+   "progress": 0.50876,
+   "lens_mm": 42.163,
+   "fstop": 8.0,
+   "focus_distance_m": 7.7281
+  },
+  {
+   "frame": 616,
+   "progress": 0.51293,
+   "lens_mm": 42.155,
+   "fstop": 8.0,
+   "focus_distance_m": 7.6475
+  },
+  {
+   "frame": 621,
+   "progress": 0.5171,
+   "lens_mm": 42.146,
+   "fstop": 8.0,
+   "focus_distance_m": 7.5604
+  },
+  {
+   "frame": 626,
+   "progress": 0.52127,
+   "lens_mm": 42.136,
+   "fstop": 8.0,
+   "focus_distance_m": 7.4684
+  },
+  {
+   "frame": 631,
+   "progress": 0.52544,
+   "lens_mm": 42.125,
+   "fstop": 8.0,
+   "focus_distance_m": 7.3731
+  },
+  {
+   "frame": 636,
+   "progress": 0.52961,
+   "lens_mm": 42.114,
+   "fstop": 8.0,
+   "focus_distance_m": 7.2762
+  },
+  {
+   "frame": 641,
+   "progress": 0.53378,
+   "lens_mm": 42.102,
+   "fstop": 8.0,
+   "focus_distance_m": 7.1793
+  },
+  {
+   "frame": 646,
+   "progress": 0.53795,
+   "lens_mm": 42.089,
+   "fstop": 8.0,
+   "focus_distance_m": 7.084
+  },
+  {
+   "frame": 651,
+   "progress": 0.54212,
+   "lens_mm": 42.077,
+   "fstop": 8.0,
+   "focus_distance_m": 6.9919
+  },
+  {
+   "frame": 656,
+   "progress": 0.54629,
+   "lens_mm": 42.065,
+   "fstop": 8.0,
+   "focus_distance_m": 6.9044
+  },
+  {
+   "frame": 661,
+   "progress": 0.55046,
+   "lens_mm": 42.053,
+   "fstop": 8.0,
+   "focus_distance_m": 6.8228
+  },
+  {
+   "frame": 666,
+   "progress": 0.55463,
+   "lens_mm": 42.042,
+   "fstop": 8.0,
+   "focus_distance_m": 6.7482
+  },
+  {
+   "frame": 671,
+   "progress": 0.5588,
+   "lens_mm": 42.032,
+   "fstop": 8.0,
+   "focus_distance_m": 6.6815
+  },
+  {
+   "frame": 676,
+   "progress": 0.56297,
+   "lens_mm": 42.023,
+   "fstop": 8.0,
+   "focus_distance_m": 6.6235
+  },
+  {
+   "frame": 681,
+   "progress": 0.56714,
+   "lens_mm": 42.015,
+   "fstop": 8.0,
+   "focus_distance_m": 6.5744
+  },
+  {
+   "frame": 686,
+   "progress": 0.57131,
+   "lens_mm": 42.008,
+   "fstop": 8.0,
+   "focus_distance_m": 6.5346
+  },
+  {
+   "frame": 691,
+   "progress": 0.57548,
+   "lens_mm": 42.004,
+   "fstop": 8.0,
+   "focus_distance_m": 6.5038
+  },
+  {
+   "frame": 696,
+   "progress": 0.57965,
+   "lens_mm": 42.001,
+   "fstop": 8.0,
+   "focus_distance_m": 6.4816
+  },
+  {
+   "frame": 701,
+   "progress": 0.58382,
+   "lens_mm": 41.999,
+   "fstop": 7.999,
+   "focus_distance_m": 6.4656
+  },
+  {
+   "frame": 706,
+   "progress": 0.58799,
+   "lens_mm": 41.975,
+   "fstop": 7.969,
+   "focus_distance_m": 6.4095
+  },
+  {
+   "frame": 711,
+   "progress": 0.59216,
+   "lens_mm": 41.918,
+   "fstop": 7.901,
+   "focus_distance_m": 6.2961
+  },
+  {
+   "frame": 716,
+   "progress": 0.59633,
+   "lens_mm": 41.833,
+   "fstop": 7.799,
+   "focus_distance_m": 6.1324
+  },
+  {
+   "frame": 721,
+   "progress": 0.6005,
+   "lens_mm": 41.724,
+   "fstop": 7.669,
+   "focus_distance_m": 5.926
+  },
+  {
+   "frame": 726,
+   "progress": 0.60467,
+   "lens_mm": 41.596,
+   "fstop": 7.515,
+   "focus_distance_m": 5.6848
+  },
+  {
+   "frame": 731,
+   "progress": 0.60884,
+   "lens_mm": 41.452,
+   "fstop": 7.342,
+   "focus_distance_m": 5.4169
+  },
+  {
+   "frame": 736,
+   "progress": 0.61301,
+   "lens_mm": 41.296,
+   "fstop": 7.155,
+   "focus_distance_m": 5.1304
+  },
+  {
+   "frame": 741,
+   "progress": 0.61718,
+   "lens_mm": 41.133,
+   "fstop": 6.96,
+   "focus_distance_m": 4.8337
+  },
+  {
+   "frame": 746,
+   "progress": 0.62135,
+   "lens_mm": 40.967,
+   "fstop": 6.76,
+   "focus_distance_m": 4.5353
+  },
+  {
+   "frame": 751,
+   "progress": 0.62552,
+   "lens_mm": 40.801,
+   "fstop": 6.561,
+   "focus_distance_m": 4.2433
+  },
+  {
+   "frame": 756,
+   "progress": 0.62969,
+   "lens_mm": 40.641,
+   "fstop": 6.369,
+   "focus_distance_m": 3.9658
+  },
+  {
+   "frame": 761,
+   "progress": 0.63386,
+   "lens_mm": 40.489,
+   "fstop": 6.187,
+   "focus_distance_m": 3.7102
+  },
+  {
+   "frame": 766,
+   "progress": 0.63803,
+   "lens_mm": 40.351,
+   "fstop": 6.021,
+   "focus_distance_m": 3.4833
+  },
+  {
+   "frame": 771,
+   "progress": 0.6422,
+   "lens_mm": 40.23,
+   "fstop": 5.876,
+   "focus_distance_m": 3.2909
+  },
+  {
+   "frame": 776,
+   "progress": 0.64637,
+   "lens_mm": 40.13,
+   "fstop": 5.756,
+   "focus_distance_m": 3.1375
+  },
+  {
+   "frame": 781,
+   "progress": 0.65054,
+   "lens_mm": 40.056,
+   "fstop": 5.667,
+   "focus_distance_m": 3.0268
+  },
+  {
+   "frame": 786,
+   "progress": 0.65471,
+   "lens_mm": 40.012,
+   "fstop": 5.614,
+   "focus_distance_m": 2.9619
+  },
+  {
+   "frame": 791,
+   "progress": 0.65888,
+   "lens_mm": 40.0,
+   "fstop": 5.6,
+   "focus_distance_m": 2.9453
+  },
+  {
+   "frame": 796,
+   "progress": 0.66305,
+   "lens_mm": 39.988,
+   "fstop": 5.607,
+   "focus_distance_m": 2.9453
+  },
+  {
+   "frame": 801,
+   "progress": 0.66722,
+   "lens_mm": 39.963,
+   "fstop": 5.621,
+   "focus_distance_m": 2.9449
+  },
+  {
+   "frame": 806,
+   "progress": 0.67139,
+   "lens_mm": 39.927,
+   "fstop": 5.641,
+   "focus_distance_m": 2.9439
+  },
+  {
+   "frame": 811,
+   "progress": 0.67556,
+   "lens_mm": 39.883,
+   "fstop": 5.666,
+   "focus_distance_m": 2.9422
+  },
+  {
+   "frame": 816,
+   "progress": 0.67973,
+   "lens_mm": 39.833,
+   "fstop": 5.693,
+   "focus_distance_m": 2.9395
+  },
+  {
+   "frame": 821,
+   "progress": 0.6839,
+   "lens_mm": 39.781,
+   "fstop": 5.722,
+   "focus_distance_m": 2.9356
+  },
+  {
+   "frame": 826,
+   "progress": 0.68807,
+   "lens_mm": 39.73,
+   "fstop": 5.751,
+   "focus_distance_m": 2.9304
+  },
+  {
+   "frame": 831,
+   "progress": 0.69224,
+   "lens_mm": 39.682,
+   "fstop": 5.778,
+   "focus_distance_m": 2.9234
+  },
+  {
+   "frame": 836,
+   "progress": 0.69641,
+   "lens_mm": 39.641,
+   "fstop": 5.801,
+   "focus_distance_m": 2.9145
+  },
+  {
+   "frame": 841,
+   "progress": 0.70058,
+   "lens_mm": 39.609,
+   "fstop": 5.819,
+   "focus_distance_m": 2.9032
+  },
+  {
+   "frame": 846,
+   "progress": 0.70475,
+   "lens_mm": 39.589,
+   "fstop": 5.83,
+   "focus_distance_m": 2.8892
+  },
+  {
+   "frame": 851,
+   "progress": 0.70892,
+   "lens_mm": 39.584,
+   "fstop": 5.833,
+   "focus_distance_m": 2.872
+  },
+  {
+   "frame": 856,
+   "progress": 0.71309,
+   "lens_mm": 39.597,
+   "fstop": 5.826,
+   "focus_distance_m": 2.8513
+  },
+  {
+   "frame": 861,
+   "progress": 0.71726,
+   "lens_mm": 39.63,
+   "fstop": 5.807,
+   "focus_distance_m": 2.8264
+  },
+  {
+   "frame": 866,
+   "progress": 0.72143,
+   "lens_mm": 39.688,
+   "fstop": 5.775,
+   "focus_distance_m": 2.7969
+  },
+  {
+   "frame": 871,
+   "progress": 0.7256,
+   "lens_mm": 39.772,
+   "fstop": 5.728,
+   "focus_distance_m": 2.7621
+  },
+  {
+   "frame": 876,
+   "progress": 0.72977,
+   "lens_mm": 39.886,
+   "fstop": 5.664,
+   "focus_distance_m": 2.7216
+  },
+  {
+   "frame": 881,
+   "progress": 0.73394,
+   "lens_mm": 40.033,
+   "fstop": 5.582,
+   "focus_distance_m": 2.6745
+  },
+  {
+   "frame": 886,
+   "progress": 0.73812,
+   "lens_mm": 40.245,
+   "fstop": 5.463,
+   "focus_distance_m": 2.6116
+  },
+  {
+   "frame": 891,
+   "progress": 0.74229,
+   "lens_mm": 40.527,
+   "fstop": 5.305,
+   "focus_distance_m": 2.5314
+  },
+  {
+   "frame": 896,
+   "progress": 0.74646,
+   "lens_mm": 40.868,
+   "fstop": 5.114,
+   "focus_distance_m": 2.4369
+  },
+  {
+   "frame": 901,
+   "progress": 0.75063,
+   "lens_mm": 41.255,
+   "fstop": 4.897,
+   "focus_distance_m": 2.3317
+  },
+  {
+   "frame": 906,
+   "progress": 0.7548,
+   "lens_mm": 41.676,
+   "fstop": 4.662,
+   "focus_distance_m": 2.219
+  },
+  {
+   "frame": 911,
+   "progress": 0.75897,
+   "lens_mm": 42.119,
+   "fstop": 4.413,
+   "focus_distance_m": 2.1022
+  },
+  {
+   "frame": 916,
+   "progress": 0.76314,
+   "lens_mm": 42.573,
+   "fstop": 4.159,
+   "focus_distance_m": 1.9845
+  },
+  {
+   "frame": 921,
+   "progress": 0.76731,
+   "lens_mm": 43.025,
+   "fstop": 3.906,
+   "focus_distance_m": 1.869
+  },
+  {
+   "frame": 926,
+   "progress": 0.77148,
+   "lens_mm": 43.463,
+   "fstop": 3.661,
+   "focus_distance_m": 1.7586
+  },
+  {
+   "frame": 931,
+   "progress": 0.77565,
+   "lens_mm": 43.876,
+   "fstop": 3.429,
+   "focus_distance_m": 1.6559
+  },
+  {
+   "frame": 936,
+   "progress": 0.77982,
+   "lens_mm": 44.251,
+   "fstop": 3.219,
+   "focus_distance_m": 1.5634
+  },
+  {
+   "frame": 941,
+   "progress": 0.78399,
+   "lens_mm": 44.577,
+   "fstop": 3.037,
+   "focus_distance_m": 1.4833
+  },
+  {
+   "frame": 946,
+   "progress": 0.78816,
+   "lens_mm": 44.841,
+   "fstop": 2.889,
+   "focus_distance_m": 1.4176
+  },
+  {
+   "frame": 951,
+   "progress": 0.79233,
+   "lens_mm": 45.033,
+   "fstop": 2.782,
+   "focus_distance_m": 1.3682
+  },
+  {
+   "frame": 956,
+   "progress": 0.7965,
+   "lens_mm": 45.171,
+   "fstop": 2.704,
+   "focus_distance_m": 1.3306
+  },
+  {
+   "frame": 961,
+   "progress": 0.80067,
+   "lens_mm": 45.273,
+   "fstop": 2.647,
+   "focus_distance_m": 1.3014
+  },
+  {
+   "frame": 966,
+   "progress": 0.80484,
+   "lens_mm": 45.341,
+   "fstop": 2.609,
+   "focus_distance_m": 1.2806
+  },
+  {
+   "frame": 971,
+   "progress": 0.80901,
+   "lens_mm": 45.381,
+   "fstop": 2.587,
+   "focus_distance_m": 1.268
+  },
+  {
+   "frame": 976,
+   "progress": 0.81318,
+   "lens_mm": 45.395,
+   "fstop": 2.579,
+   "focus_distance_m": 1.2636
+  },
+  {
+   "frame": 981,
+   "progress": 0.81735,
+   "lens_mm": 45.388,
+   "fstop": 2.583,
+   "focus_distance_m": 1.2671
+  },
+  {
+   "frame": 986,
+   "progress": 0.82152,
+   "lens_mm": 45.363,
+   "fstop": 2.597,
+   "focus_distance_m": 1.2781
+  },
+  {
+   "frame": 991,
+   "progress": 0.82569,
+   "lens_mm": 45.325,
+   "fstop": 2.618,
+   "focus_distance_m": 1.296
+  },
+  {
+   "frame": 996,
+   "progress": 0.82986,
+   "lens_mm": 45.277,
+   "fstop": 2.645,
+   "focus_distance_m": 1.3196
+  },
+  {
+   "frame": 1001,
+   "progress": 0.83403,
+   "lens_mm": 45.223,
+   "fstop": 2.675,
+   "focus_distance_m": 1.3478
+  },
+  {
+   "frame": 1006,
+   "progress": 0.8382,
+   "lens_mm": 45.168,
+   "fstop": 2.706,
+   "focus_distance_m": 1.3791
+  },
+  {
+   "frame": 1011,
+   "progress": 0.84237,
+   "lens_mm": 45.115,
+   "fstop": 2.736,
+   "focus_distance_m": 1.4118
+  },
+  {
+   "frame": 1016,
+   "progress": 0.84654,
+   "lens_mm": 45.067,
+   "fstop": 2.762,
+   "focus_distance_m": 1.4442
+  },
+  {
+   "frame": 1021,
+   "progress": 0.85071,
+   "lens_mm": 45.03,
+   "fstop": 2.783,
+   "focus_distance_m": 1.4744
+  },
+  {
+   "frame": 1026,
+   "progress": 0.85488,
+   "lens_mm": 45.006,
+   "fstop": 2.796,
+   "focus_distance_m": 1.5007
+  },
+  {
+   "frame": 1031,
+   "progress": 0.85905,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.5214
+  },
+  {
+   "frame": 1036,
+   "progress": 0.86322,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.5405
+  },
+  {
+   "frame": 1041,
+   "progress": 0.86739,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.5598
+  },
+  {
+   "frame": 1046,
+   "progress": 0.87156,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.5786
+  },
+  {
+   "frame": 1051,
+   "progress": 0.87573,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.5964
+  },
+  {
+   "frame": 1056,
+   "progress": 0.8799,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.6125
+  },
+  {
+   "frame": 1061,
+   "progress": 0.88407,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.6266
+  },
+  {
+   "frame": 1066,
+   "progress": 0.88824,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.6381
+  },
+  {
+   "frame": 1071,
+   "progress": 0.89241,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.6466
+  },
+  {
+   "frame": 1076,
+   "progress": 0.89658,
+   "lens_mm": 45.0,
+   "fstop": 2.8,
+   "focus_distance_m": 1.6517
+  },
+  {
+   "frame": 1081,
+   "progress": 0.90075,
+   "lens_mm": 44.998,
+   "fstop": 2.801,
+   "focus_distance_m": 1.6539
+  },
+  {
+   "frame": 1086,
+   "progress": 0.90492,
+   "lens_mm": 44.927,
+   "fstop": 2.838,
+   "focus_distance_m": 1.6821
+  },
+  {
+   "frame": 1091,
+   "progress": 0.90909,
+   "lens_mm": 44.763,
+   "fstop": 2.923,
+   "focus_distance_m": 1.7482
+  },
+  {
+   "frame": 1096,
+   "progress": 0.91326,
+   "lens_mm": 44.514,
+   "fstop": 3.053,
+   "focus_distance_m": 1.8494
+  },
+  {
+   "frame": 1101,
+   "progress": 0.91743,
+   "lens_mm": 44.188,
+   "fstop": 3.222,
+   "focus_distance_m": 1.983
+  },
+  {
+   "frame": 1106,
+   "progress": 0.9216,
+   "lens_mm": 43.795,
+   "fstop": 3.427,
+   "focus_distance_m": 2.1461
+  },
+  {
+   "frame": 1111,
+   "progress": 0.92577,
+   "lens_mm": 43.343,
+   "fstop": 3.662,
+   "focus_distance_m": 2.3353
+  },
+  {
+   "frame": 1116,
+   "progress": 0.92994,
+   "lens_mm": 42.84,
+   "fstop": 3.923,
+   "focus_distance_m": 2.5474
+  },
+  {
+   "frame": 1121,
+   "progress": 0.93411,
+   "lens_mm": 42.296,
+   "fstop": 4.206,
+   "focus_distance_m": 2.7786
+  },
+  {
+   "frame": 1126,
+   "progress": 0.93828,
+   "lens_mm": 41.718,
+   "fstop": 4.507,
+   "focus_distance_m": 3.0252
+  },
+  {
+   "frame": 1131,
+   "progress": 0.94245,
+   "lens_mm": 41.117,
+   "fstop": 4.819,
+   "focus_distance_m": 3.2834
+  },
+  {
+   "frame": 1136,
+   "progress": 0.94662,
+   "lens_mm": 40.499,
+   "fstop": 5.14,
+   "focus_distance_m": 3.5492
+  },
+  {
+   "frame": 1141,
+   "progress": 0.95079,
+   "lens_mm": 39.875,
+   "fstop": 5.465,
+   "focus_distance_m": 3.8188
+  },
+  {
+   "frame": 1146,
+   "progress": 0.95496,
+   "lens_mm": 39.253,
+   "fstop": 5.789,
+   "focus_distance_m": 4.0884
+  },
+  {
+   "frame": 1151,
+   "progress": 0.95913,
+   "lens_mm": 38.64,
+   "fstop": 6.107,
+   "focus_distance_m": 4.3539
+  },
+  {
+   "frame": 1156,
+   "progress": 0.9633,
+   "lens_mm": 38.047,
+   "fstop": 6.415,
+   "focus_distance_m": 4.6115
+  },
+  {
+   "frame": 1161,
+   "progress": 0.96747,
+   "lens_mm": 37.482,
+   "fstop": 6.709,
+   "focus_distance_m": 4.8574
+  },
+  {
+   "frame": 1166,
+   "progress": 0.97164,
+   "lens_mm": 36.953,
+   "fstop": 6.984,
+   "focus_distance_m": 5.0877
+  },
+  {
+   "frame": 1171,
+   "progress": 0.97581,
+   "lens_mm": 36.47,
+   "fstop": 7.236,
+   "focus_distance_m": 5.2984
+  },
+  {
+   "frame": 1176,
+   "progress": 0.97998,
+   "lens_mm": 36.04,
+   "fstop": 7.459,
+   "focus_distance_m": 5.4859
+  },
+  {
+   "frame": 1181,
+   "progress": 0.98415,
+   "lens_mm": 35.673,
+   "fstop": 7.65,
+   "focus_distance_m": 5.6461
+  },
+  {
+   "frame": 1186,
+   "progress": 0.98832,
+   "lens_mm": 35.377,
+   "fstop": 7.804,
+   "focus_distance_m": 5.7754
+  },
+  {
+   "frame": 1191,
+   "progress": 0.99249,
+   "lens_mm": 35.16,
+   "fstop": 7.917,
+   "focus_distance_m": 5.8698
+  },
+  {
+   "frame": 1196,
+   "progress": 0.99666,
+   "lens_mm": 35.033,
+   "fstop": 7.983,
+   "focus_distance_m": 5.9256
+  }
+ ],
+ "sound_system": {
+  "status": "PROVISORIO - substituir pelos modelos reais do subwoofer e do amplificador",
+  "parts": [
+   "PLACEHOLDER_SUBWOOFER_BOX",
+   "PLACEHOLDER_SUB_TERMINAL",
+   "PLACEHOLDER_SUB_DRIVER_L",
+   "PLACEHOLDER_SUB_DRIVER_R",
+   "PLACEHOLDER_BOX_BRACKETS",
+   "PLACEHOLDER_AMP_BOARD",
+   "PLACEHOLDER_AMPLIFIER",
+   "PLACEHOLDER_CABLE_POWER_4AWG",
+   "PLACEHOLDER_CABLE_GROUND_4AWG",
+   "PLACEHOLDER_CABLE_RCA_L",
+   "PLACEHOLDER_CABLE_RCA_R",
+   "PLACEHOLDER_CABLE_REMOTE",
+   "PLACEHOLDER_CABLE_SPK_POS",
+   "PLACEHOLDER_CABLE_SPK_NEG",
+   "PLACEHOLDER_CABLE_TIES_AND_GROUND"
+  ],
+  "mount_points": {
+   "MOUNT_SUBWOOFER_BOX": {
+    "position_rest": [
+     0.0,
+     -1.475,
+     0.5455
+    ],
+    "note": "base da caixa; frente dos alto-falantes voltada para -Y (abertura do porta-malas)"
+   },
+   "MOUNT_SUB_DRIVER_L": {
+    "position_rest": [
+     -0.195,
+     -1.655,
+     0.712
+    ],
+    "note": "centro do recorte do alto-falante esquerdo (recorte 234 mm, flange 270 mm)"
+   },
+   "MOUNT_SUB_DRIVER_R": {
+    "position_rest": [
+     0.195,
+     -1.655,
+     0.712
+    ],
+    "note": "centro do recorte do alto-falante direito"
+   },
+   "MOUNT_AMPLIFIER": {
+    "position_rest": [
+     0.0,
+     -1.88,
+     0.5615
+    ],
+    "note": "base do amplificador sobre a placa; terminais de energia em -X, saida de som em +X"
+   }
+  },
+  "box_mm": [
+   800,
+   360,
+   330
+  ],
+  "trunk_measured": {
+   "floor_z": 0.544,
+   "half_width_between_wells_m": 0.49,
+   "clearance_under_shelf_z": 0.93
+  }
+ },
+ "original_actions_removed": [
+  [
+   "Airbags",
+   [
+    0.0,
+    13.75
+   ]
+  ],
+  [
+   "Cupholder",
+   [
+    0.0,
+    35.0
+   ]
+  ],
+  [
+   "Front left door",
+   [
+    0.0,
+    35.0
+   ]
+  ],
+  [
+   "Front right door",
+   [
+    0.0,
+    35.0
+   ]
+  ],
+  [
+   "Open all doors",
+   [
+    0.0,
+    35.0
+   ]
+  ],
+  [
+   "Rear left door",
+   [
+    0.0,
+    35.0
+   ]
+  ],
+  [
+   "Rear right door",
+   [
+    0.0,
+    35.0
+   ]
+  ],
+  [
+   "Tailgate and shelf",
+   [
+    0.0,
+    35.0
+   ]
+  ]
+ ],
+ "nodes": [
+  {
+   "name": "BODY_SUSPENSION",
+   "role": "hierarquia",
+   "parent": "VEHICLE",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "BRAKE_CALIPER_FL",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_FL_HUB",
+   "world_position_rest": [
+    -0.7559,
+    1.2668,
+    0.3778
+   ],
+   "triangles": 408
+  },
+  {
+   "name": "BRAKE_CALIPER_FR",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_FR_HUB",
+   "world_position_rest": [
+    0.7559,
+    1.2668,
+    0.3778
+   ],
+   "triangles": 408
+  },
+  {
+   "name": "BRAKE_CALIPER_RL",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_RL_HUB",
+   "world_position_rest": [
+    -0.7385,
+    -1.5242,
+    0.3719
+   ],
+   "triangles": 408
+  },
+  {
+   "name": "BRAKE_CALIPER_RR",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_RR_HUB",
+   "world_position_rest": [
+    0.7385,
+    -1.5242,
+    0.3719
+   ],
+   "triangles": 408
+  },
+  {
+   "name": "BRAKE_DISC_FL",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_FL_SPIN",
+   "world_position_rest": [
+    -0.7089,
+    1.4025,
+    0.3184
+   ],
+   "triangles": 2136
+  },
+  {
+   "name": "BRAKE_DISC_FR",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_FR_SPIN",
+   "world_position_rest": [
+    0.7089,
+    1.4025,
+    0.3184
+   ],
+   "triangles": 2136
+  },
+  {
+   "name": "BRAKE_DISC_RL",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_RL_SPIN",
+   "world_position_rest": [
+    -0.6915,
+    -1.4016,
+    0.3184
+   ],
+   "triangles": 1344
+  },
+  {
+   "name": "BRAKE_DISC_RR",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_RR_SPIN",
+   "world_position_rest": [
+    0.6915,
+    -1.4016,
+    0.3184
+   ],
+   "triangles": 1344
+  },
+  {
+   "name": "BRAKE_SHIELD_FL",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_FL_HUB",
+   "world_position_rest": [
+    -0.7089,
+    1.4087,
+    0.3184
+   ],
+   "triangles": 256
+  },
+  {
+   "name": "BRAKE_SHIELD_FR",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_FR_HUB",
+   "world_position_rest": [
+    0.7089,
+    1.4087,
+    0.3184
+   ],
+   "triangles": 256
+  },
+  {
+   "name": "BRAKE_SHIELD_RL",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_RL_HUB",
+   "world_position_rest": [
+    -0.6995,
+    -1.398,
+    0.3185
+   ],
+   "triangles": 256
+  },
+  {
+   "name": "BRAKE_SHIELD_RR",
+   "role": "freio_reconstrucao_ilustrativa",
+   "parent": "WHEEL_RR_HUB",
+   "world_position_rest": [
+    0.6995,
+    -1.398,
+    0.3185
+   ],
+   "triangles": 256
+  },
+  {
+   "name": "CAMERA_RIG",
+   "role": "hierarquia",
+   "parent": null,
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "CINE_CAMERA",
+   "role": "hierarquia",
+   "parent": "CAMERA_RIG",
+   "world_position_rest": [
+    0.62,
+    3.55,
+    0.4
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "EXTERIOR_204",
+   "role": "hierarquia",
+   "parent": "BODY_SUSPENSION",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "INTERIOR_106",
+   "role": "hierarquia",
+   "parent": "BODY_SUSPENSION",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_CORRIDOR",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_DRL",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_FRONT_REVEAL",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.08,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_HEADLAMPS",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_KEY_REVEAL",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.16,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_REAR_ACCENT",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_SIDE_REVEAL",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_TAIL_BRAKE",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_TRUNK_COURTESY",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "LIGHTCTL_TRUNK_FILL",
+   "role": "controle_de_iluminacao",
+   "parent": "LIGHTING_CONTROLS",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "MOUNT_AMPLIFIER",
+   "role": "ponto_de_instalacao",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0,
+    -1.88,
+    0.5615
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "MOUNT_SUB_DRIVER_L",
+   "role": "ponto_de_instalacao",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    -0.195,
+    -1.655,
+    0.712
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "MOUNT_SUB_DRIVER_R",
+   "role": "ponto_de_instalacao",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.195,
+    -1.655,
+    0.712
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "MOUNT_SUBWOOFER_BOX",
+   "role": "ponto_de_instalacao",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0,
+    -1.475,
+    0.5455
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "PASSAT_ROOT",
+   "role": "hierarquia",
+   "parent": null,
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "PLACEHOLDER_AMP_BOARD",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0,
+    -1.88,
+    0.555
+   ],
+   "triangles": 140
+  },
+  {
+   "name": "PLACEHOLDER_AMPLIFIER",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0,
+    -1.88,
+    0.5615
+   ],
+   "triangles": 1264
+  },
+  {
+   "name": "PLACEHOLDER_BOX_BRACKETS",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0,
+    -1.43,
+    0.5705
+   ],
+   "triangles": 384
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_GROUND_4AWG",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    -0.2531,
+    -2.0123,
+    0.5673
+   ],
+   "triangles": 248
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_POWER_4AWG",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    -0.3203,
+    -1.6293,
+    0.5674
+   ],
+   "triangles": 428
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_RCA_L",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.1385,
+    -1.5625,
+    0.5695
+   ],
+   "triangles": 428
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_RCA_R",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.1365,
+    -1.5583,
+    0.5695
+   ],
+   "triangles": 428
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_REMOTE",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.1338,
+    -1.585,
+    0.5663
+   ],
+   "triangles": 428
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_SPK_NEG",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.11,
+    -1.7719,
+    0.5717
+   ],
+   "triangles": 308
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_SPK_POS",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0913,
+    -1.7839,
+    0.5717
+   ],
+   "triangles": 308
+  },
+  {
+   "name": "PLACEHOLDER_CABLE_TIES_AND_GROUND",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    -0.001,
+    -1.707,
+    0.5572
+   ],
+   "triangles": 1796
+  },
+  {
+   "name": "PLACEHOLDER_SUB_DRIVER_L",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    -0.195,
+    -1.655,
+    0.712
+   ],
+   "triangles": 4656
+  },
+  {
+   "name": "PLACEHOLDER_SUB_DRIVER_R",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.195,
+    -1.655,
+    0.712
+   ],
+   "triangles": 4656
+  },
+  {
+   "name": "PLACEHOLDER_SUB_TERMINAL",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0,
+    -1.668,
+    0.6
+   ],
+   "triangles": 268
+  },
+  {
+   "name": "PLACEHOLDER_SUBWOOFER_BOX",
+   "role": "sistema_de_som_provisorio",
+   "parent": "SOUND_SYSTEM",
+   "world_position_rest": [
+    0.0,
+    -1.475,
+    0.7103
+   ],
+   "triangles": 560
+  },
+  {
+   "name": "SOUND_SYSTEM",
+   "role": "hierarquia",
+   "parent": "BODY_SUSPENSION",
+   "world_position_rest": [
+    0.0,
+    -1.6,
+    0.8624
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "TRUNK_LID_EXT",
+   "role": "tampa_do_porta_malas",
+   "parent": "EXT TRUNK_203",
+   "world_position_rest": [
+    0.0,
+    -1.8116,
+    1.0606
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "TRUNK_LID_INT",
+   "role": "tampa_do_porta_malas",
+   "parent": "INT TRUNK_105",
+   "world_position_rest": [
+    0.0,
+    -1.8116,
+    1.0606
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "VEHICLE",
+   "role": "hierarquia",
+   "parent": "PASSAT_ROOT",
+   "world_position_rest": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_FL_HUB",
+   "role": "roda",
+   "parent": "VEHICLE",
+   "world_position_rest": [
+    -0.7089,
+    1.4025,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_FL_SPIN",
+   "role": "roda",
+   "parent": "WHEEL_FL_HUB",
+   "world_position_rest": [
+    -0.7089,
+    1.4025,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_FR_HUB",
+   "role": "roda",
+   "parent": "VEHICLE",
+   "world_position_rest": [
+    0.7089,
+    1.4025,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_FR_SPIN",
+   "role": "roda",
+   "parent": "WHEEL_FR_HUB",
+   "world_position_rest": [
+    0.7089,
+    1.4025,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_RL_HUB",
+   "role": "roda",
+   "parent": "VEHICLE",
+   "world_position_rest": [
+    -0.6915,
+    -1.4016,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_RL_SPIN",
+   "role": "roda",
+   "parent": "WHEEL_RL_HUB",
+   "world_position_rest": [
+    -0.6915,
+    -1.4016,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_RR_HUB",
+   "role": "roda",
+   "parent": "VEHICLE",
+   "world_position_rest": [
+    0.6915,
+    -1.4016,
+    0.3184
+   ],
+   "triangles": 0
+  },
+  {
+   "name": "WHEEL_RR_SPIN",
+   "role": "roda",
+   "parent": "WHEEL_RR_HUB",
+   "world_position_rest": [
+    0.6915,
+    -1.4016,
+    0.3184
+   ],
+   "triangles": 0
+  }
+ ]
+}
