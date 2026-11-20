@@ -1,0 +1,257 @@
+[
+  {
+    "id": 2,
+    "brand": "2MIX",
+    "model": "GP-MP5 9″",
+    "images": [
+      {
+        "file": "foto-02.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://2mix.com.br/produto/central-multimidia-2mix-mp5-9-gp/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 4,
+    "brand": "2MIX",
+    "model": "Detroit 9″ · 2 GB / 64 GB",
+    "images": [
+      {
+        "file": "foto-04.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://2mix.com.br/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 6,
+    "brand": "JBL",
+    "model": "Flex4 6″",
+    "images": [
+      {
+        "file": "foto-06.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://www.jbl.com.br/JBL-6TRFX55.html"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 13,
+    "brand": "PIONEER",
+    "model": "MVH-S235BT",
+    "images": [
+      {
+        "file": "foto-13.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://pioneer.com.br/produto/mvh-s235bt/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 3,
+    "brand": "Marca a confirmar",
+    "model": "iPlay MP5 7″ · código a confirmar",
+    "images": [
+      {
+        "file": "foto-03.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://adakmultimidia.com.br/central-de-ajuda/manuais-adak/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 8,
+    "brand": "2MIX",
+    "model": "Detroit 7″ · 2 GB / 64 GB",
+    "images": [
+      {
+        "file": "foto-08.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://2mix.com.br/produto/central-multimidia-2mix-android-7-detroit/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 5,
+    "brand": "JBL",
+    "model": "SW68A-S",
+    "images": [
+      {
+        "file": "foto-05.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://www.jbl.com.br/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw07087efe/pdfs/58033016_JBL%20SW68A-Quick%20Start.pdf"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 24,
+    "brand": "TARAMPS",
+    "model": "DS 800X4 · 2 Ω",
+    "images": [
+      {
+        "file": "foto-24.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://www.taramps.com.br/pt/produto/ds800x4-2ohms/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 9,
+    "brand": "JBL",
+    "model": "Stage3 627F",
+    "images": [
+      {
+        "file": "foto-09.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://global.jbl.com/car-speakers/STAGE3627FAM.html"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 10,
+    "brand": "JBL",
+    "model": "Stage3 607C",
+    "images": [
+      {
+        "file": "foto-10.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://global.jbl.com/car-speakers/STAGE3607CAM.html"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 11,
+    "brand": "JBL",
+    "model": "Stage2 634",
+    "images": [
+      {
+        "file": "foto-11.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://th.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw923d8395/pdfs/JBL_Stage2_Speakers_Spec_Sheet_English.pdf"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 12,
+    "brand": "BRAVOX",
+    "model": "B3X40 X",
+    "images": [
+      {
+        "file": "foto-12.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://www.bravox.com.br/automotivo"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 18,
+    "brand": "BRAVOX",
+    "model": "B4X69 · variante a confirmar",
+    "images": [
+      {
+        "file": "foto-18.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://www.bravox.com.br/automotivo"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 7,
+    "brand": "Marca a confirmar",
+    "model": "Código a confirmar",
+    "images": [
+      {
+        "file": "foto-07.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://www.unlikealtofalantes.com.br/produtos/tweeter/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  },
+  {
+    "id": 1,
+    "brand": "KX3",
+    "model": "Sensor com display · variante a confirmar",
+    "images": [
+      {
+        "file": "foto-01.webp",
+        "origin": "Projeto fornecido pelo usuário",
+        "usage": "Recurso preexistente fornecido para continuidade do site; licença de terceiros não comprovada.",
+        "status": "provided-existing-review-required"
+      }
+    ],
+    "technicalReferences": [
+      "https://kx3.com.br/produto/sensor-eletronico-kx3/"
+    ],
+    "externalImageUse": "reference-only; not downloaded"
+  }
+]
