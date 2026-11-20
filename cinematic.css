@@ -1,0 +1,204 @@
+/* Direção: sequência contínua, imagens em tela cheia e narrativa ao rolar. */
+.showroom-track {
+  height: 920vh;
+}
+
+.showroom-stage {
+  min-height: 650px;
+}
+
+.showroom-intro {
+  padding-top: 64px;
+  padding-bottom: 52px;
+}
+
+.showroom-intro h2 {
+  font-size: clamp(40px, 4.2vw, 66px);
+}
+
+.scene-top {
+  padding-top: 32px;
+}
+
+.scene-copy {
+  margin-top: 16vh;
+  max-width: 640px;
+}
+
+.scene-copy h2 {
+  font-size: clamp(58px, 6.2vw, 102px);
+  max-width: 640px;
+  letter-spacing: -0.025em;
+  line-height: 0.93;
+}
+
+.scene-copy > p {
+  font-size: 14.5px;
+  line-height: 1.78;
+  max-width: 410px;
+  color: var(--text-secondary);
+}
+
+.scene-controls {
+  left: auto;
+  right: 5%;
+  bottom: 76px;
+  width: 390px;
+  max-width: 90%;
+  padding: 14px 18px;
+  border-color: var(--line-strong);
+  background: rgba(10, 18, 29, 0.85);
+  border-radius: 8px;
+}
+
+.scene-controls summary {
+  font-size: 12px;
+  gap: 36px;
+}
+
+.scene-controls:not([open]) {
+  width: auto;
+}
+
+.scene-controls .scene-timeline {
+  margin-top: 16px;
+}
+
+.scene-controls > summary > span {
+  font-size: 20px;
+}
+
+.scene-controls .scene-options {
+  gap: 13px;
+}
+
+.scene-controls .component-label {
+  display: block;
+  width: 100%;
+}
+
+.scene-caption {
+  max-width: 760px;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.scene-top .eyebrow {
+  color: var(--text-secondary);
+}
+
+.showroom-stage:has(canvas)::after {
+  background:
+    linear-gradient(90deg, rgba(4, 7, 12, 0.78) 0%, transparent 64%),
+    linear-gradient(0deg, rgba(4, 7, 12, 0.92) 0%, transparent 32%);
+}
+
+.scene-copy .eyebrow {
+  color: var(--blue-bright);
+}
+
+.store-introduction {
+  min-height: 620px;
+  height: auto;
+}
+
+.scene-controls ~ .scene-caption {
+  padding-right: 40px;
+}
+
+.scene-timeline input {
+  cursor: ew-resize;
+}
+
+.scene-copy-progress {
+  --scene-progress: 0;
+}
+
+@media (max-width: 650px) {
+  .showroom-track {
+    height: 760vh;
+  }
+  .showroom-stage {
+    min-height: 640px;
+  }
+  .scene-copy, .showroom-stage:has(canvas) .scene-copy {
+    margin-top: 12vh;
+    max-width: 330px;
+  }
+  .scene-copy h2, .showroom-stage:has(canvas) .scene-copy h2 {
+    font-size: clamp(40px, 11.5vw, 58px);
+    max-width: 330px;
+    letter-spacing: -0.02em;
+  }
+  .showroom-stage:has(canvas) .scene-copy > p:not(#scene-status) {
+    display: block;
+    font-size: 12.5px;
+    max-width: 300px;
+  }
+  .scene-controls {
+    bottom: 130px;
+    right: 5%;
+    max-width: 90%;
+  }
+  .scene-caption {
+    font-size: 9.5px;
+    line-height: 1.55;
+    bottom: 20px;
+  }
+  .scene-copy > p {
+    font-size: 12.5px;
+  }
+  .store-introduction {
+    min-height: auto;
+  }
+  .scene-controls[open] {
+    bottom: 110px;
+    background: rgba(6, 13, 22, 0.95);
+  }
+  .showroom-intro .section-top {
+    margin-bottom: 22px;
+  }
+  .scene-top {
+    padding-top: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .showroom-track {
+    height: auto;
+  }
+  .showroom-stage {
+    position: relative;
+  }
+  .scene-copy {
+    margin-top: 10vh;
+  }
+}
+
+/* A captured first frame bridges the two existing Premium sequences. */
+#scene-bridge { position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+  z-index:1; pointer-events:none; opacity:0; will-change:opacity,transform; }
+.showroom-stage #scene-poster { z-index:1; pointer-events:none; }
+.showroom-stage::after, .showroom-stage:has(canvas)::after { z-index:2; }
+.showroom-stage .scene-top, .showroom-stage .scene-copy,
+.showroom-stage .scene-controls, .showroom-stage .scene-caption { z-index:3; }
+.showroom-stage[data-scene-state="ready"] #scene-poster { display:block; opacity:0; transition:opacity 220ms ease-out; }
+.showroom-stage[data-scene-state="waiting"] #scene-poster,
+.showroom-stage[data-scene-state="fallback"] #scene-poster { opacity:1; }
+@media(prefers-reduced-motion:reduce) { #scene-bridge { display:none; } #scene-poster { transition:none!important; } }
+
+/* End of the scroll story: dissolve to the opening car frame without moving scroll. */
+#scene-end-cover { position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+  z-index:1; pointer-events:none; opacity:0; }
+@media(prefers-reduced-motion:reduce) { #scene-end-cover { display:none; } }
+
+/* Mobile starts at the normal store hero; no empty scroll track or 3D links. */
+@media (max-width: 1023px), (hover: none) and (pointer: coarse) {
+  #showroom-track,
+  #scene-discovery,
+  a[href="#showroom"],
+  a[href="#showroom-track"] {
+    display: none !important;
+  }
+}
+

@@ -1,23 +1,416 @@
 <!doctype html>
 <html lang="pt-BR">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080e18"><title>L&M | Som e Acessórios Automotivos</title><meta name="description" content="Som, centrais multimídia, alto-falantes e acessórios automotivos em São José dos Pinhais. Conheça a L&M e monte seu orçamento pelo WhatsApp."><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#060a10">
+  <title>L&M | Som e Acessórios Automotivos</title>
+  <meta name="description" content="Som, centrais multimídia, alto-falantes e acessórios automotivos em São José dos Pinhais. Conheça a L&M e monte seu orçamento pelo WhatsApp.">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="enhancements.css">
+  <link rel="stylesheet" href="cinematic.css">
+  <link rel="stylesheet" href="consultant.css">
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+  <script src="catalog-core.js" defer></script>
+  <script src="products.js" defer></script>
+  <script src="product-audit.js" defer></script>
+  <script src="enhanced-app.js" defer></script>
+  <script src="consultant-core.js" defer></script>
+  <script src="brand-guide.js" defer></script>
+  <script src="quotation-wizard.js" defer></script>
+</head>
 <body>
-<a class="skip" href="#conteudo">Pular para o conteúdo</a>
-<div class="topbar"><span>SÃO JOSÉ DOS PINHAIS · PR</span><a href="tel:+5541991549334">(41) 99154-9334 ↗</a></div>
-<header><a class="logo" href="#inicio" aria-label="L&M início"><strong>L&M<span class="waves">)))</span></strong><span>SOM E ACESSÓRIOS AUTOMOTIVOS</span></a><button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">☰</button><nav id="nav" aria-label="Menu principal"><a href="#produtos">Produtos</a><a href="#servicos">Serviços</a><a href="#loja">A loja</a><a href="#contato">Contato</a></nav><button class="quote-btn" id="open-quote">Meu orçamento <span id="quote-count">0</span></button></header>
-<main id="conteudo">
-<section class="hero" id="inicio"><img class="hero-bg" src="foto-15.webp" alt="Interior da L&M com exposição de som automotivo e espaço de instalação" fetchpriority="high"><div class="hero-shade"></div><div class="hero-content"><div class="eyebrow"><i></i> SINTA A DIFERENÇA EM CADA TRAJETO</div><h1>Seu carro.<br>Seu estilo.<br><em>Seu som.</em></h1><p>Do primeiro upgrade ao projeto completo.<br>Som, tecnologia e acessórios para transformar<br class="desktop"> a sua experiência ao volante.</p><div class="hero-actions"><a class="button primary" href="#produtos">Explore os produtos <span>↗</span></a><a class="text-link whatsapp" href="#">Vamos conversar <span>↗</span></a></div></div><div class="hero-caption"><span class="pulse"></span> L&M · FEITO PARA QUEM GOSTA DE CARRO</div><a class="hero-scroll" href="#produtos" aria-label="Explorar catálogo">↓</a><div class="hero-index">01 <span>/ A SUA PRÓXIMA EXPERIÊNCIA</span></div></section>
-<div class="brand-strip"><span>TECNOLOGIA E SOM<br><b>QUE VOCÊ CONHECE.</b></span><strong>JBL</strong><strong class="pioneer">Pioneer</strong><strong>TARAMPS</strong><strong>BRAVOX</strong><strong>2Mix</strong><strong>STETSOM</strong></div>
-<section class="catalog section" id="produtos"><div class="section-top"><div><div class="eyebrow blue">ESCOLHA O SEU PRÓXIMO UPGRADE</div><h2>Encontre o seu <em>ritmo.</em></h2></div><p>Explore o catálogo, escolha seus favoritos<br>e monte um orçamento com a nossa equipe.</p></div><div class="catalog-tools"><div class="filters" role="group" aria-label="Categorias de produtos"><button class="active" data-filter="Todos" aria-pressed="true">Todos</button><button data-filter="Multimídia" aria-pressed="false">Multimídia</button><button data-filter="Alto-falantes" aria-pressed="false">Alto-falantes</button><button data-filter="Graves e potência" aria-pressed="false">Graves e potência</button><button data-filter="Acessórios" aria-pressed="false">Acessórios</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="O que você procura?" aria-label="Buscar produtos"></label></div><div class="catalog-meta"><span id="result-count" aria-live="polite"></span><span>Valores e disponibilidade sob consulta</span></div><div id="product-grid" class="product-grid"></div><div id="empty" hidden class="empty"><h3>Nenhum produto encontrado.</h3><p>Tente outro termo ou explore todas as categorias.</p><button class="button" id="reset-search">Limpar busca</button></div><div class="catalog-bottom"><p>Ficou na dúvida sobre o que combina com seu carro?</p><a class="text-link blue whatsapp" href="#">A gente ajuda você a escolher ↗</a></div></section>
-<section class="services section" id="servicos"><div class="section-top"><div><div class="eyebrow blue">MUITO ALÉM DO PRODUTO</div><h2>O cuidado que seu<br>carro <em>merece.</em></h2></div><p>Conte o que você tem em mente.<br>A gente ajuda a encontrar a solução.</p></div><div class="service-list"><a class="service" data-service="Som automotivo" href="#"><span class="service-num">01</span><div><h3>Som automotivo</h3><p>Alto-falantes, subwoofers, módulos e instalação para o seu projeto.</p></div><span class="arrow">↗</span></a><a class="service" data-service="Centrais multimídia" href="#"><span class="service-num">02</span><div><h3>Multimídia & conectividade</h3><p>Rádios e centrais para trazer mais tecnologia aos seus trajetos.</p></div><span class="arrow">↗</span></a><a class="service" data-service="Alarmes e travas elétricas" href="#"><span class="service-num">03</span><div><h3>Alarmes & travas elétricas</h3><p>Acessórios e instalação para a rotina com seu veículo.</p></div><span class="arrow">↗</span></a><a class="service" data-service="Insulfilm" href="#"><span class="service-num">04</span><div><h3>Insulfilm</h3><p>Consulte as opções de películas e aplicação para o seu carro.</p></div><span class="arrow">↗</span></a></div></section>
-<section class="store section" id="loja"><div class="store-photo"><button class="gallery-open" data-photo="14" aria-label="Ampliar foto da fachada"><img src="foto-14.webp" alt="Fachada da L&M Som e Acessórios Automotivos" loading="lazy"><span>CONHEÇA DE PERTO ↗</span></button></div><div class="store-copy"><div class="eyebrow blue">PRAZER, SOMOS A L&M</div><h2>Paixão por som.<br>Espaço para o<br><em>seu projeto.</em></h2><p>Uma loja para quem quer dar mais personalidade ao carro. Venha conhecer os produtos, conversar com a equipe e descobrir as possibilidades para o seu veículo.</p><div class="store-detail"><span>01</span><div><b>Unidade Boneca do Iguaçu</b><p>Rua Maringá, 86 · São José dos Pinhais – PR</p><a class="text-link blue" href="https://share.google/10wODxAqw8qswKWJK" target="_blank" rel="noopener noreferrer">Ver localização ↗</a></div></div><div class="store-detail"><span>02</span><div><b>Unidade Centro</b><p>Rua Norberto de Brito, 2085 · Centro<br>São José dos Pinhais – PR</p><a class="text-link blue" href="https://www.google.com/maps/place/L+%26+M+SOM+E+ACESS%C3%93RIOS+AUTOMOTIVOS+-+CENTRO/@-25.53364,-49.1961692,17z/data=!4m15!1m8!3m7!1s0x94dcf0af6dedbff7:0x539937b7ea5eff0f!2sR.+Norberto+de+Brito,+2085+-+Centro,+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR,+83005-290!3b1!8m2!3d-25.53364!4d-49.1961692!16s%2Fg%2F11pw0y0b4c!3m5!1s0x94dcf1a9921e5fd3:0xe43c85f6eb05257b!8m2!3d-25.5336766!4d-49.1960652!16s%2Fg%2F11z8pk8hjj?entry=ttu" target="_blank" rel="noopener noreferrer">Ver localização ↗</a></div></div></div></section>
-<section class="gallery-section section"><div class="section-top"><div><div class="eyebrow blue">POR DENTRO DA L&M</div><h2>Chega mais.</h2></div><p>Conheça o nosso espaço.<br>Clique nas fotos para explorar.</p></div><div class="gallery" id="gallery"></div></section>
-<section class="how section"><div class="eyebrow blue">SEU PROJETO COMEÇA AQUI</div><h2>Da ideia ao <em>orçamento.</em></h2><div class="steps"><div><span>01 /</span><h3>Explore e selecione</h3><p>Veja os produtos e adicione os que você gostou ao seu orçamento.</p></div><div><span>02 /</span><h3>Conte sobre seu carro</h3><p>Informe o modelo do veículo e o que você procura no campo de observações.</p></div><div><span>03 /</span><h3>Converse com a L&M</h3><p>Envie sua seleção pelo WhatsApp para consultar compatibilidade, valores e instalação.</p></div></div></section>
-<section class="faq section"><div><div class="eyebrow blue">PODE PERGUNTAR</div><h2>Antes de<br><em>dar o play.</em></h2></div><div class="faq-list"><details><summary>Como faço para comprar um produto?<span>+</span></summary><p>Adicione os produtos ao seu orçamento e abra o WhatsApp. Nossa equipe confirma os valores, a disponibilidade e a melhor forma de atendimento. O site não cobra nem conclui compras.</p></details><details><summary>O produto serve no meu carro?<span>+</span></summary><p>A compatibilidade depende do modelo e do ano do veículo. Inclua essas informações nas observações do orçamento para que a equipe confira antes da compra.</p></details><details><summary>Vocês fazem instalação?<span>+</span></summary><p>Sim. A L&M trabalha com instalação de som, multimídia, alarmes, travas elétricas e insulfilm. Consulte pelo WhatsApp os serviços e horários disponíveis para o seu veículo.</p></details><details><summary>Posso parcelar?<span>+</span></summary><p>A loja aceita cartões e anuncia parcelamento em até 12 vezes. Consulte os valores, as condições e as opções de parcelamento para o seu orçamento.</p></details></div></section>
-<section class="contact section" id="contato"><div class="contact-title"><div class="eyebrow">O PRÓXIMO PASSO É SEU</div><h2>Vamos dar um<br><em>upgrade?</em></h2><a class="button white whatsapp" href="#">Conversar no WhatsApp <span>↗</span></a></div><div class="contact-info"><div><span>UNIDADE BONECA DO IGUAÇU</span><p>Rua Maringá, 86 · Boneca do Iguaçu<br>São José dos Pinhais · PR<br>CEP 83040-160</p><a href="https://share.google/10wODxAqw8qswKWJK" target="_blank" rel="noopener noreferrer">Abrir no Google Maps ↗</a></div><div><span>UNIDADE CENTRO</span><p>Rua Norberto de Brito, 2085 · Centro<br>São José dos Pinhais · PR<br>CEP 83005-290</p><a href="https://www.google.com/maps/place/L+%26+M+SOM+E+ACESS%C3%93RIOS+AUTOMOTIVOS+-+CENTRO/@-25.53364,-49.1961692,17z/data=!4m15!1m8!3m7!1s0x94dcf0af6dedbff7:0x539937b7ea5eff0f!2sR.+Norberto+de+Brito,+2085+-+Centro,+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR,+83005-290!3b1!8m2!3d-25.53364!4d-49.1961692!16s%2Fg%2F11pw0y0b4c!3m5!1s0x94dcf1a9921e5fd3:0xe43c85f6eb05257b!8m2!3d-25.5336766!4d-49.1960652!16s%2Fg%2F11z8pk8hjj?entry=ttu" target="_blank" rel="noopener noreferrer">Abrir unidade Centro no Google Maps ↗</a></div><div><span>HORÁRIO DE ATENDIMENTO</span><p>Segunda a sábado · 09h às 18h<br>Domingo · fechado</p></div><div><span>FALE COM A GENTE</span><a href="tel:+5541991549334">(41) 99154-9334</a><br><a href="https://www.instagram.com/lemsomautomotivo/" target="_blank" rel="noopener noreferrer">@lemsomautomotivo ↗</a></div></div></section>
-</main><footer><a class="logo" href="#inicio"><strong>L&M<span class="waves">)))</span></strong><span>SOM E ACESSÓRIOS AUTOMOTIVOS</span></a><p>Seu carro. Seu estilo. Seu som.</p><a href="#inicio">Voltar ao topo ↑</a></footer>
-<a class="floating-wa whatsapp" href="#" aria-label="Falar com a L&M pelo WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 11.6a8 8 0 0 1-11.7 7.1L4 20l1.3-4.2A8 8 0 1 1 20 11.6Z"/><path d="M8.5 8c-.6 2.8 2.8 6.2 5.5 6.5l1.4-1.5-2-1-1 1c-1.4-.5-2.5-1.6-3-3l1-1L9.5 7.5Z"/></svg></a>
-<dialog id="product-dialog" class="product-dialog" aria-label="Detalhes do produto"><button class="close" aria-label="Fechar detalhes" data-close>×</button><div id="product-detail"></div></dialog>
-<dialog id="quote-dialog" class="quote-dialog"><button class="close" aria-label="Fechar orçamento" data-close>×</button><div class="eyebrow blue">SEU PROJETO, DO SEU JEITO</div><h2>Meu orçamento<span class="blue">.</span></h2><p class="muted">Separe os produtos e converse com a nossa equipe.</p><div id="quote-items"></div><label class="notes-label" for="notes">Seu carro e suas ideias <span>(opcional)</span></label><textarea id="notes" maxlength="1600" rows="4" placeholder="Ex.: Tenho um Gol 2018 e quero um som para o dia a dia. Gostaria de incluir a instalação."></textarea><p class="small muted">Valores, disponibilidade e compatibilidade serão confirmados pela L&M. Ao continuar, o WhatsApp abrirá com sua mensagem pronta para você enviar.</p><a class="button primary" id="send-quote" target="_blank" rel="noopener noreferrer" href="#">Continuar no WhatsApp <span>↗</span></a></dialog>
-<dialog id="photo-dialog" class="photo-dialog"><button class="close" aria-label="Fechar foto" data-close>×</button><button id="photo-prev" class="photo-nav" aria-label="Foto anterior">←</button><figure><img id="large-photo" alt=""><figcaption id="photo-caption"></figcaption></figure><button id="photo-next" class="photo-nav" aria-label="Próxima foto">→</button></dialog><div id="toast" role="status" aria-live="polite"></div>
-</body></html>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <div class="topbar">
+    <span>SÃO JOSÉ DOS PINHAIS · PR — DUAS UNIDADES</span>
+    <a href="tel:+5541991549334">(41) 99154-9334 ↗</a>
+  </div>
+  <header>
+    <a class="logo" href="#inicio" aria-label="L&M início">
+      <strong>L&amp;M<span class="waves">)))</span></strong>
+      <span>SOM E ACESSÓRIOS AUTOMOTIVOS</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav id="nav" aria-label="Menu principal">
+      <a href="#showroom">Showroom</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#loja">A loja</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="quote-btn" id="open-quote">Meu orçamento <span id="quote-count">0</span></button>
+  </header>
+
+  <main id="conteudo">
+    <span id="inicio" aria-hidden="true"></span>
+
+    <div id="showroom-track" class="showroom-track">
+      <section id="showroom" class="showroom-stage" aria-label="Showroom interativo">
+        <img id="scene-poster" class="scene-poster" src="assets/3d/passat/poster.webp" alt="Render ilustrativo do Passat 2022 no estúdio virtual" loading="lazy" width="1920" height="1080">
+        <div id="scene-canvas" aria-label="Visualização 3D interativa"></div>
+        <div class="scene-top">
+          <span class="eyebrow"><i></i> PROJETO / L&amp;M SHOWROOM</span>
+          <a href="#produtos" class="text-link">Catálogo de equipamentos ↓</a>
+        </div>
+        <div class="scene-copy" id="scene-copy-progress">
+          <span id="scene-chapter" class="eyebrow blue">01 / Revelação</span>
+          <h2 id="scene-title">SEU CARRO. OUTRA EXPERIÊNCIA.</h2>
+          <p id="scene-explanation">Explore movimento, iluminação e detalhes de um projeto de som em uma cena automotiva ilustrativa.</p>
+          <div class="scene-status-bar">
+            <p id="scene-status" role="status">Preparando a próxima cena…</p>
+            <button id="scene-load" class="button outline small-btn" hidden>Recarregar 3D ↺</button>
+          </div>
+        </div>
+        <details id="scene-controls" class="scene-controls" hidden>
+          <summary>Inspecionar engenharia 3D <span>+</span></summary>
+          <div class="scene-timeline">
+            <label for="scene-progress">Sequência cinematográfica <output id="scene-percent">0%</output></label>
+            <input id="scene-progress" type="range" min="0" max="1000" value="0" aria-label="Progresso da cena 3D">
+          </div>
+          <div class="scene-options">
+            <label><input id="scene-scroll" type="checkbox" checked> Sincronizar com rolagem</label>
+            <label><input id="scene-mode" type="checkbox"> Câmera livre (girar/zoom)</label>
+            <button id="scene-reset" type="button">Reiniciar ↺</button>
+            <label class="component-label">Componente
+              <select id="scene-component"><option value="">Todos os componentes</option></select>
+            </label>
+          </div>
+          <p id="scene-component-description" aria-live="polite"></p>
+        </details>
+        <p id="scene-caption" class="scene-caption"></p>
+      </section>
+    </div>
+
+    <section class="showroom-intro section" id="scene-discovery">
+      <div class="section-top">
+        <div>
+          <div class="eyebrow blue"><i></i> L&amp;M / EXPLORE OUTRA DIMENSÃO</div>
+          <h2>Antes de ouvir.<br><em>Veja de perto.</em></h2>
+        </div>
+        <p>Um novo olhar técnico sobre acústica e integração automotiva.<br>Escolha a cena abaixo ou avance direto para os equipamentos reais da loja.</p>
+      </div>
+      <div class="scene-tabs" role="group" aria-label="Experiência 3D">
+        <button data-scene="passat" aria-pressed="true" class="active"><span>01</span> Passat 2022 · Integração</button>
+        <button data-scene="lsr308" aria-pressed="false"><span>02</span> Engenharia do Áudio · Acústica</button>
+        <a class="text-link" href="#produtos">Ir ao catálogo ↗</a>
+      </div>
+    </section>
+
+    <section class="hero store-introduction" id="apresentacao">
+      <img class="hero-bg" src="foto-15.webp" alt="Interior da L&M com exposição de som automotivo e espaço de instalação" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow"><i></i> SINTA A DIFERENÇA EM CADA TRAJETO</div>
+          <h1>Seu carro.<br>Seu estilo.<br><em>Seu som.</em></h1>
+          <p>Do primeiro upgrade ao projeto completo. Som automotivo, centrais multimídia e instalação técnica com acabamento de fábrica em São José dos Pinhais.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#produtos">Explorar equipamentos <span>↗</span></a>
+            <a class="button outline showroom-link" href="#showroom">Showroom 3D <span>↗</span></a>
+            <a class="text-link whatsapp" href="#">Falar com especialista <span>↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-Telemetry" aria-label="Destaques técnicos da loja">
+          <div class="telemetry-card">
+            <span class="telemetry-index">01 / PROJETO</span>
+            <strong>Acústica &amp; Potência</strong>
+            <p>Alto-falantes, kits 2 vias, subwoofers slim e amplificadores dimensionados.</p>
+          </div>
+          <div class="telemetry-card">
+            <span class="telemetry-index">02 / INTEGRAÇÃO</span>
+            <strong>Painel &amp; Conectividade</strong>
+            <p>Centrais multimídia de 7″ e 9″, Bluetooth e preservação do visual original.</p>
+          </div>
+          <div class="telemetry-card">
+            <span class="telemetry-index">03 / ESTRUTURA</span>
+            <strong>2 Unidades em SJP</strong>
+            <p>Atendimento e instalação especializada no Centro e na Boneca do Iguaçu.</p>
+          </div>
+        </aside>
+      </div>
+      <div class="hero-bottom-bar">
+        <a class="hero-scroll" href="#produtos" aria-label="Explorar catálogo">↓</a>
+        <div class="hero-caption"><span class="pulse"></span> L&amp;M · ENGENHARIA DE SOM E ACESSÓRIOS AUTOMOTIVOS</div>
+        <div class="hero-index">01 <span>/ SHOWROOM OFICIAL</span></div>
+      </div>
+    </section>
+
+    <div class="brand-strip" role="navigation" aria-label="Guia interativo de marcas">
+      <span>TECNOLOGIA E SOM<br><b>ESCOLHA PARA ENTENDER.</b></span>
+      <strong>JBL</strong>
+      <strong class="pioneer">Pioneer</strong>
+      <strong>TARAMPS</strong>
+      <strong>BRAVOX</strong>
+      <strong>2Mix</strong>
+      <strong>STETSOM</strong>
+    </div>
+
+    <section id="brand-panel" class="brand-panel" role="region" aria-labelledby="brand-heading" hidden></section>
+
+    <section class="catalog section" id="produtos">
+      <div class="section-top">
+        <div>
+          <div class="eyebrow blue"><i></i> ESCOLHA O SEU PRÓXIMO UPGRADE</div>
+          <h2>Encontre o seu <em>ritmo.</em></h2>
+        </div>
+        <p>Explore os equipamentos verificados do catálogo, compare especificações<br>e adicione seus favoritos ao configurador de orçamento.</p>
+      </div>
+      <div class="catalog-tools">
+        <div class="filters" role="group" aria-label="Categorias de produtos">
+          <button class="active" data-filter="Todos" aria-pressed="true">Todos</button>
+          <button data-filter="Multimídia" aria-pressed="false">Multimídia</button>
+          <button data-filter="Alto-falantes" aria-pressed="false">Alto-falantes</button>
+          <button data-filter="Graves e potência" aria-pressed="false">Graves e potência</button>
+          <button data-filter="Acessórios" aria-pressed="false">Acessórios</button>
+        </div>
+        <label class="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" placeholder="Buscar marca, modelo ou medida..." aria-label="Buscar produtos">
+        </label>
+      </div>
+      <div class="catalog-meta">
+        <span id="result-count" aria-live="polite"></span>
+        <span>Valores, compatibilidade e disponibilidade sob consulta</span>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+      <div id="empty" hidden class="empty">
+        <h3>Nenhum produto encontrado.</h3>
+        <p>Tente outro termo ou explore todas as categorias do showroom.</p>
+        <button class="button outline" id="reset-search">Limpar filtros</button>
+      </div>
+      <div class="catalog-bottom">
+        <div>
+          <span class="eyebrow blue">CONSULTORIA TÉCNICA L&amp;M</span>
+          <p>Ficou na dúvida sobre diâmetro, impedância ou moldura ideal para o seu carro?</p>
+        </div>
+        <a class="button outline whatsapp" href="#">A gente ajuda você a escolher <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="services section" id="servicos">
+      <div class="section-top">
+        <div>
+          <div class="eyebrow blue"><i></i> MUITO ALÉM DO PRODUTO</div>
+          <h2>O cuidado que seu<br>carro <em>merece.</em></h2>
+        </div>
+        <p>Instalação limpa, conexões seguras e integração precisa ao veículo.<br>Selecione um serviço para conversar diretamente com a equipe.</p>
+      </div>
+      <div class="service-list">
+        <a class="service" data-service="Som automotivo" href="#">
+          <span class="service-num">01</span>
+          <div>
+            <h3>Som automotivo</h3>
+            <p>Alto-falantes, subwoofers, módulos e instalação dimensionada para o seu projeto.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="service" data-service="Centrais multimídia" href="#">
+          <span class="service-num">02</span>
+          <div>
+            <h3>Multimídia &amp; conectividade</h3>
+            <p>Rádios e centrais para trazer mais tecnologia e integração aos seus trajetos.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="service" data-service="Alarmes e travas elétricas" href="#">
+          <span class="service-num">03</span>
+          <div>
+            <h3>Alarmes &amp; travas elétricas</h3>
+            <p>Acessórios de segurança e praticidade instalados com padrão profissional.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="service" data-service="Insulfilm" href="#">
+          <span class="service-num">04</span>
+          <div>
+            <h3>Insulfilm</h3>
+            <p>Consulte as opções de películas de controle solar e aplicação para o seu carro.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="store section" id="loja">
+      <div class="store-photo">
+        <button class="gallery-open" data-photo="14" aria-label="Ampliar foto da fachada">
+          <img src="foto-14.webp" alt="Fachada da L&M Som e Acessórios Automotivos" loading="lazy">
+          <span>CONHEÇA NOSSA ESTRUTURA ↗</span>
+        </button>
+      </div>
+      <div class="store-copy">
+        <div class="eyebrow blue"><i></i> PRAZER, SOMOS A L&amp;M</div>
+        <h2>Paixão por som.<br>Espaço para o<br><em>seu projeto.</em></h2>
+        <p>Uma loja pensada para quem valoriza acabamento, fidelidade sonora e atendimento transparente. Visite uma de nossas unidades em São José dos Pinhais, conheça os equipamentos de perto e planeje a configuração ideal para o seu veículo.</p>
+        <div class="store-units">
+          <div class="store-detail">
+            <span>01</span>
+            <div>
+              <b>Unidade Boneca do Iguaçu</b>
+              <p>Rua Maringá, 86 · São José dos Pinhais – PR</p>
+              <a class="text-link blue" href="https://share.google/10wODxAqw8qswKWJK" target="_blank" rel="noopener noreferrer">Ver localização no mapa ↗</a>
+            </div>
+          </div>
+          <div class="store-detail">
+            <span>02</span>
+            <div>
+              <b>Unidade Centro</b>
+              <p>Rua Norberto de Brito, 2085 · Centro<br>São José dos Pinhais – PR</p>
+              <a class="text-link blue" href="https://www.google.com/maps/place/L+%26+M+SOM+E+ACESS%C3%93RIOS+AUTOMOTIVOS+-+CENTRO/@-25.53364,-49.1961692,17z/data=!4m15!1m8!3m7!1s0x94dcf0af6dedbff7:0x539937b7ea5eff0f!2sR.+Norberto+de+Brito,+2085+-+Centro,+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR,+83005-290!3b1!8m2!3d-25.53364!4d-49.1961692!16s%2Fg%2F11pw0y0b4c!3m5!1s0x94dcf1a9921e5fd3:0xe43c85f6eb05257b!8m2!3d-25.5336766!4d-49.1960652!16s%2Fg%2F11z8pk8hjj?entry=ttu" target="_blank" rel="noopener noreferrer">Ver localização no mapa ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section">
+      <div class="section-top">
+        <div>
+          <div class="eyebrow blue"><i></i> POR DENTRO DA L&amp;M</div>
+          <h2>Nosso <em>espaço.</em></h2>
+        </div>
+        <p>Bancada técnica, exposição de equipamentos e área de instalação.<br>Clique nas imagens para ampliar.</p>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="how section">
+      <div class="section-top">
+        <div>
+          <div class="eyebrow blue"><i></i> SEU PROJETO COMEÇA AQUI</div>
+          <h2>Da ideia ao <em>orçamento.</em></h2>
+        </div>
+        <p>Um fluxo simples, consultivo e transparente para configurar seu carro sem erros de compatibilidade.</p>
+      </div>
+      <div class="steps">
+        <div>
+          <span>01 / SELEÇÃO</span>
+          <h3>Explore e selecione</h3>
+          <p>Navegue pelo catálogo ou pelo guia de marcas e adicione os equipamentos desejados ao seu projeto.</p>
+        </div>
+        <div>
+          <span>02 / CONFIGURAÇÃO</span>
+          <h3>Conte sobre seu carro</h3>
+          <p>Informe o veículo, seus objetivos de áudio e preferências de instalação no configurador guiado.</p>
+        </div>
+        <div>
+          <span>03 / ATENDIMENTO</span>
+          <h3>Converse com a L&amp;M</h3>
+          <p>Envie a ficha técnica do seu projeto pelo WhatsApp para confirmar compatibilidade, valores e agendamento.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div>
+        <div class="eyebrow blue"><i></i> DÚVIDAS FREQUENTES</div>
+        <h2>Antes de<br><em>dar o play.</em></h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Como faço para comprar um produto?<span>+</span></summary>
+          <p>Adicione os produtos ao seu orçamento e abra o WhatsApp. Nossa equipe confirma os valores, a disponibilidade e a melhor forma de atendimento. O site não cobra nem conclui compras.</p>
+        </details>
+        <details>
+          <summary>O produto serve no meu carro?<span>+</span></summary>
+          <p>A compatibilidade depende do modelo e do ano do veículo. Inclua essas informações nas observações do orçamento para que a equipe confira antes da compra.</p>
+        </details>
+        <details>
+          <summary>Vocês fazem instalação?<span>+</span></summary>
+          <p>Sim. A L&amp;M trabalha com instalação de som, multimídia, alarmes, travas elétricas e insulfilm. Consulte pelo WhatsApp os serviços e horários disponíveis para o seu veículo.</p>
+        </details>
+        <details>
+          <summary>Posso parcelar?<span>+</span></summary>
+          <p>A loja aceita cartões e anuncia parcelamento em até 12 vezes. Consulte os valores, as condições e as opções de parcelamento para o seu orçamento.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="contact-title">
+        <div class="eyebrow blue"><i></i> O PRÓXIMO PASSO É SEU</div>
+        <h2>Vamos dar um<br><em>upgrade?</em></h2>
+        <p class="contact-lead">Fale diretamente com a nossa equipe técnica pelo WhatsApp ou visite uma de nossas lojas em São José dos Pinhais.</p>
+        <a class="button primary whatsapp" href="#">Conversar no WhatsApp <span>↗</span></a>
+      </div>
+      <div class="contact-info">
+        <div class="contact-card">
+          <span>UNIDADE BONECA DO IGUAÇU</span>
+          <p>Rua Maringá, 86 · Boneca do Iguaçu<br>São José dos Pinhais · PR · CEP 83040-160</p>
+          <a href="https://share.google/10wODxAqw8qswKWJK" target="_blank" rel="noopener noreferrer">Abrir no Google Maps ↗</a>
+        </div>
+        <div class="contact-card">
+          <span>UNIDADE CENTRO</span>
+          <p>Rua Norberto de Brito, 2085 · Centro<br>São José dos Pinhais · PR · CEP 83005-290</p>
+          <a href="https://www.google.com/maps/place/L+%26+M+SOM+E+ACESS%C3%93RIOS+AUTOMOTIVOS+-+CENTRO/@-25.53364,-49.1961692,17z/data=!4m15!1m8!3m7!1s0x94dcf0af6dedbff7:0x539937b7ea5eff0f!2sR.+Norberto+de+Brito,+2085+-+Centro,+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR,+83005-290!3b1!8m2!3d-25.53364!4d-49.1961692!16s%2Fg%2F11pw0y0b4c!3m5!1s0x94dcf1a9921e5fd3:0xe43c85f6eb05257b!8m2!3d-25.5336766!4d-49.1960652!16s%2Fg%2F11z8pk8hjj?entry=ttu" target="_blank" rel="noopener noreferrer">Abrir unidade Centro no Google Maps ↗</a>
+        </div>
+        <div class="contact-card">
+          <span>HORÁRIO DE ATENDIMENTO</span>
+          <p>Segunda a sábado · 09h às 18h<br>Domingo · fechado</p>
+        </div>
+        <div class="contact-card">
+          <span>CANAIS DIRETOS</span>
+          <p><a href="tel:+5541991549334">(41) 99154-9334</a></p>
+          <a href="https://www.instagram.com/lemsomautomotivo/" target="_blank" rel="noopener noreferrer">@lemsomautomotivo ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="model-credits">
+    Modelos 3D modificados: <a href="https://sketchfab.com/3d-models/studio-monitor-jbl-lsr308-7ad5a7d350884a258a7326dfee5fbf8a" target="_blank" rel="noopener noreferrer">Studio Monitor JBL LSR308 — Maxim Lukyanov (Mad_Huron)</a> e <a href="https://sketchfab.com/3d-models/volkswagen-passat-2022-5a3398aea23a4beaa60e228738f525e8" target="_blank" rel="noopener noreferrer">Volkswagen Passat (2022) — geyges</a>. Licença declarada nos arquivos fornecidos: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. Interiores e sistema de som ilustrativos.
+  </div>
+
+  <footer>
+    <a class="logo" href="#inicio">
+      <strong>L&amp;M<span class="waves">)))</span></strong>
+      <span>SOM E ACESSÓRIOS AUTOMOTIVOS</span>
+    </a>
+    <p>Seu carro. Seu estilo. Seu som. · São José dos Pinhais, PR</p>
+    <a href="#inicio" class="back-top">Voltar ao topo ↑</a>
+  </footer>
+
+  <a class="floating-wa whatsapp" href="#" aria-label="Falar com a L&M pelo WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+      <path d="M20 11.6a8 8 0 0 1-11.7 7.1L4 20l1.3-4.2A8 8 0 1 1 20 11.6Z"/>
+      <path d="M8.5 8c-.6 2.8 2.8 6.2 5.5 6.5l1.4-1.5-2-1-1 1c-1.4-.5-2.5-1.6-3-3l1-1L9.5 7.5Z"/>
+    </svg>
+  </a>
+
+  <dialog id="product-dialog" class="product-dialog" aria-label="Detalhes do produto">
+    <button class="close" aria-label="Fechar detalhes" data-close>×</button>
+    <div id="product-detail"></div>
+  </dialog>
+
+  <dialog id="quote-dialog" class="quote-dialog" aria-label="Meu orçamento">
+    <button class="close" aria-label="Fechar orçamento" data-close>×</button>
+    <div class="eyebrow blue">SEU PROJETO, DO SEU JEITO</div>
+    <h2>Meu orçamento<span class="blue">.</span></h2>
+    <p class="muted">Separe os produtos e converse com a nossa equipe.</p>
+    <div id="quote-items"></div>
+    <label class="notes-label" for="vehicle">Seu veículo <span>(opcional)</span></label>
+    <input type="text" id="vehicle" maxlength="160" placeholder="Marca, modelo, ano e versão">
+    <label class="notes-label" for="notes">Seu carro e suas ideias <span>(opcional)</span></label>
+    <textarea id="notes" maxlength="1600" rows="4" placeholder="Ex.: Tenho um Gol 2018 e quero um som para o dia a dia. Gostaria de incluir a instalação."></textarea>
+    <p class="small muted">Valores, disponibilidade e compatibilidade serão confirmados pela L&amp;M. Ao continuar, o WhatsApp abrirá com sua mensagem pronta para você enviar.</p>
+    <details class="message-preview">
+      <summary>Conferir mensagem do orçamento <span>+</span></summary>
+      <pre id="message-preview"></pre>
+    </details>
+    <a class="button primary" id="send-quote" target="_blank" rel="noopener noreferrer" href="#">Continuar no WhatsApp <span>↗</span></a>
+  </dialog>
+
+  <dialog id="photo-dialog" class="photo-dialog">
+    <button class="close" aria-label="Fechar foto" data-close>×</button>
+    <button id="photo-prev" class="photo-nav" aria-label="Foto anterior">←</button>
+    <figure>
+      <img id="large-photo" alt="">
+      <figcaption id="photo-caption"></figcaption>
+    </figure>
+    <button id="photo-next" class="photo-nav" aria-label="Próxima foto">→</button>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
